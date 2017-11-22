@@ -24,9 +24,8 @@
 
 4. 创建项目。  
    切换到你的工作目录，执行  
-   `bash  
-   wxp new my_project  
-   `  
+   `bash    
+   wxp new my_project`
 
 
 
