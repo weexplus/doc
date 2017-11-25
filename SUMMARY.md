@@ -7,7 +7,7 @@
   * [navigator\(导航控制器\)](mo-kuai/notify.md)
   * [notify\(通知\)](mo-kuai/notifytong-77e529.md)
   * [photo\(相机/相册\)](mo-kuai/photoxiang-673a-xiang-518c29.md)
-  * static\(静态存储\)
+  * [static\(静态存储\)](mo-kuai/staticjing-tai-cun-50a829.md)
   * [pref\(固定存储\)](mo-kuai/prefgu-ding-cun-50a829.md)
   * [fpicker\(picker\)](mo-kuai/fpickerpicker.md)
   * [progress\(无状态进度框\)](mo-kuai/progresswu-zhuang-tai-jin-du-684629.md)
@@ -19,4 +19,5 @@
   * [web\(扩展\)](zu-jian/web.md)
   * [floading\(小菊花进度指示器\)](zu-jian/floading.md)
   * [image\(扩展\)](zu-jian/imagekuo-5c5529.md)
+  * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
 
