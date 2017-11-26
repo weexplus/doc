@@ -33,15 +33,15 @@ send()
 }
 
 
-   created:function(){
+created:function(){
 
-         const notify = weex.requireModule('notify');
-         notify.regist("key",function (res) {
-              var v= res.v1;
-          });  
+     const notify = weex.requireModule('notify');
+     notify.regist("key",function (res) {
+          var v= res.v1;
+      });  
 
 
-       }
+   }
 ```
 
 
