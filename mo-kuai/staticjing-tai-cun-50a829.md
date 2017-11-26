@@ -17,7 +17,7 @@
 * @param key
 */
  get(String key)
- 
+
  /**
 * 存储字符串
 * @param key
@@ -26,7 +26,7 @@
 setString(key,value)
 
 /**
-* 获取对象
+* 获取字符串
 * @param key
 */
 getString(String key)
