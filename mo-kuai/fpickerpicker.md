@@ -16,25 +16,29 @@ setCount(count)
 
 设置第一列的数据
 /**
-* @param list 参数
+* @param list 数据
 */
 setItems1(list)
 
 设置第二列的数据
 /**
-* @param list 参数
+* @param list 数据
 */
 setItems2(list)
 
 
 设置第三列的数据
 /**
-* @param list 参数
+* @param list 数据
 */
 setItems3(list)
 
 
-
+设置主题色
+/**
+* @param bgcolor 参数
+*/
+ setTheme( bgcolor, btncolor)
 ```
 
 
