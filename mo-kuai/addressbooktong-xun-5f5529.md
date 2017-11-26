@@ -19,9 +19,12 @@ read()
   var book=weex.requireModule('addressBook')
 
   book.read((res)=>{
-  
-  var people=res.people;
-
+      var people=res.people;
+      var p0=people[0];
+      var firstname=p0.firstName
+      var lastName=p0.lastName
+      var phones=p0.phones 
+       
   })
 }
 ```
