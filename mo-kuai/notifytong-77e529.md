@@ -4,10 +4,8 @@
 
 ```js
 /**注册
+*、
 regist(key,callback)
-
-
-
 ```
 
 
