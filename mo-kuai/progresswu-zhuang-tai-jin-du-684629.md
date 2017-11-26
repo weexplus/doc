@@ -4,14 +4,14 @@
 
 ### API
 
-```
+```js
 /**
   * 显示
   */
  show()
 
  /**
-  * 显示
+  * @param count 文字
   */
  showFull(txt)
 ```
