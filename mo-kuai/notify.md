@@ -31,16 +31,13 @@ pushFull(url,param,navbarVisibility,callback,animate)
 back()
 
 /**
+关闭当前页面，返回上一个页面，同时带上参数
 @param param 带给上一个页面的参数
 @param animate 是否使用动画，（android无效）
 */
 backFull(param,animate)
 
-注意：使用push代开的页面只能用back,backFull返回 
-
- 
-  
-    
+注意：使用push代开的页面只能用back,backFull返回
 ```
 
 
