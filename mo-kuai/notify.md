@@ -25,6 +25,16 @@ pushParam(url,param )
 */
 pushFull(url,param,navbarVisibility,callback,animate)
 
+/**
+关闭当前页面，返回上一个页面，
+*/
+back()
+
+/**
+@param param 带给上一个页面的参数
+@param animate 是否使用动画，（android无效）
+*/
+backFull(param,animate)
 
 ```
 
