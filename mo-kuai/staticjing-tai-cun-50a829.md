@@ -18,11 +18,18 @@
 */
  get(String key)
  
- 
- 
- 
- 
- 
+ /**
+* 存储字符串
+* @param key
+* @param value
+*/
+setString(key,value)
+
+/**
+* 获取对象
+* @param key
+*/
+getString(String key)
 ```
 
 
