@@ -124,7 +124,9 @@ setRoot(id)
 
    var self=this;
    var nav = weex.requireModule('navigator') ;
-   nav.pushParam('page1.js',{a:'这是传过来的值'});
+   var param={};
+   param.a='value1'
+   nav.pushParam('page1.js',param);
 
   }
 ```
