@@ -4,47 +4,26 @@
 
 ### API
 
-1. ```js
-   简单跳转
-   push(url)
-
-   /**
-   * @param url 相对地址
-   * @param param 参数
-   */
-   pushParam(url,param )
-
-   /**
-    * @param url 相对地址
-    * @param param 参数
-    * @param navbarVisibility 原生导航栏是否可见（已废弃）
-    * @param callback 页面返回时的回调
-    * @param animate 使用动画（android无效）
-    */
-    pushFull(url,param,navbarVisibility,callback,animate)
+```js
+简单跳转
+push(url)
 
 
+/**
+@param url 相对地址
+@param param 参数
+*/
+pushParam(url,param )
+
+/**
+@param url 相对地址
+@param param 参数
+@param navbarVisibility 原生导航栏是否可见（已废弃）
+@param callback 页面返回时的回调
+@param animate 使用动画（android无效）
+*/
+pushFull(url,param,navbarVisibility,callback,animate)
+```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   ```
-
-
-
-
-
- 
 
