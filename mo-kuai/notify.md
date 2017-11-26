@@ -137,6 +137,24 @@ setRoot(id)
     var nav = weex.requireModule('navigator') ;
     nav.present('page1.js')
   },
+  
+  
+  /**获取参数
+  created:function(){
+
+          var self=this;
+          var globalEvent = weex.requireModule('globalEvent') ;
+          globalEvent.addEventListener("onPageInit", function (e) {
+
+
+              var navigator = weex.requireModule('navigator') ;
+              var param=navigator.param();
+             
+
+
+          });
+      }
+  
 ```
 
 
