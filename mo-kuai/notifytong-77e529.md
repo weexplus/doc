@@ -4,8 +4,12 @@
 
 ```js
 /**注册
-*、
+*/
 regist(key,callback)
+
+/**
+发送
+send(key,param)
 ```
 
 
