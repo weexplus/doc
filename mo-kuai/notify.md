@@ -131,7 +131,7 @@ setRoot(id)
    nav.pushParam('page1.js',param);
   }
 
-  /弹出式跳转
+  /**弹出式跳转
   present(){
     var self=this;
     var nav = weex.requireModule('navigator') ;
