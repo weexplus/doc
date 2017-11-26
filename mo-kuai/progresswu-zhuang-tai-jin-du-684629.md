@@ -11,7 +11,7 @@
  show()
 
  /**
-  * @param count 文字
+  * @param txt 加载的文字
   */
  showFull(txt)
 ```
