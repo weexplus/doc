@@ -6,6 +6,7 @@
 
 ```js
 注意：使用push代开的页面只能用back,backFull返回，使用present打开的页面，只能用dismiss关闭
+
 /**
 @param url 相对地址
 */
