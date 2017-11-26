@@ -135,6 +135,7 @@ setRoot(id)
     var nav = weex.requireModule('navigator') ;
     nav.present('page1.js')
   },
+  
 ```
 
 
