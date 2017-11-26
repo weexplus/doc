@@ -53,6 +53,7 @@ present()
 @param param 参数
 @param navbarVisibility 原生导航栏是否可见（后面会废弃）
 @param createnav 是否创建导航控制器，默认是（后面会废弃）
+@param  callback 
 */
 presentFull(url,param, navbarVisibility, createnav,callback,animate)
 
