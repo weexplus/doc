@@ -9,11 +9,11 @@
   * 显示
   */
  show()
- 
+
  /**
   * 显示
   */
- showFull()
+ showFull(txt)
 ```
 
 
