@@ -1,6 +1,8 @@
 # pref
 
-持久存储，即使app关闭之后也会存在，类似于cookie
+持久存储，即使app关闭之后也会存在，类似于cookie,android基于sharerefrence，Ios基于NSUserDefaults
+
+
 
 ### API
 
