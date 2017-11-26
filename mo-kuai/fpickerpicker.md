@@ -42,9 +42,9 @@ setItems3(list)
  setTheme( bgcolor, btncolor)
 
 
-显示picker
+
 /*
-* 
+* 显示picker
 */
  show()
 ```
