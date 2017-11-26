@@ -5,7 +5,7 @@
 ### API
 
 ```js
-/**默认的选择器，包含了相册和相机 
+/**默认的选择器，包含了相册和相机入口
 * @param aspX 照片宽度
 * @param aspY 照片高度
 * @param themeColor 相册选择页的背景色
