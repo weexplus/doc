@@ -62,6 +62,18 @@ presentFull(url,param, navbarVisibility, createnav,callback,animate)
 关闭，present开头方法打开的页面
 */
 dismiss()
+
+
+/**
+关闭，present开头方法打开的页面，同时带上参数
+@param param 带给上一个页面的参数
+@param animate 是否使用动画，（android无效）
+*/
+backFull(param,animate)
+
+
+
+
 ```
 
 ```
