@@ -13,13 +13,13 @@ read(callback)
 
 ### Demo
 
-```
+```js
 read()
 {
   var book=weex.requireModule('addressBook')
 
   book.read((res)=>{
-    var url=res.url
+     
   })
 }
 ```
