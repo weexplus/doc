@@ -45,6 +45,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 一般这个组件都是配合上传一起使用
 
 
+//打开相册
  openPhoto()
     {
         var self=this;
@@ -77,6 +78,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 
 
 
+    //打开相机
     openCamera()
             {
                 var self=this;
@@ -128,7 +130,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
                     modal.toast({message:'上传成功！'})
                     },()=>{
                     //compelete
-                    
+
                     },()=>{
                     //exception
                     var modal=weex.requireModule("modal")
