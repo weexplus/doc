@@ -16,6 +16,7 @@
 * @param callback 回调，返回图片地址
 */
 open( aspX, aspY , themeColor, titleColor,  cancelColor,  callback)
+
 /**
 * @param width
 * @param height
