@@ -17,10 +17,8 @@ read(callback)
 read()
 {
   var book=weex.requireModule('addressBook')
-  var p={};
-  p.color='#000000'
-  p.bgcolor='#ffffff'
-  qr.open(p,(res)=>{
+
+  book.read((res)=>{
     var url=res.url
   })
 }
