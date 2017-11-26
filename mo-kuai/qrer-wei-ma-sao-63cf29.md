@@ -13,5 +13,21 @@
 open( param,  callback)
 ```
 
+### Demo
+
+```js
+open()
+{
+  var qr=weex.requireModule('qr')
+  var p={};
+  p.color='#000000'
+  p.bgcolor='#ffffff'
+  qr.open(p,(res)=>{
+  
+    var url=res.url
+  })
+}
+```
+
 
 
