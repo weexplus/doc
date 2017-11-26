@@ -50,6 +50,7 @@ getString(String key)
               var modal=weex.requireModule("modal")
               modal.toast({message:'存储成功的值:'+s});
           },
+          
           saveObj()
           {
               var pref=weex.requireModule("static")
