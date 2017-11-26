@@ -127,7 +127,6 @@ setRoot(id)
    var param={};
    param.a='value1'
    nav.pushParam('page1.js',param);
-
   }
 ```
 
