@@ -11,6 +11,8 @@ regist(key,callback)
 发送
 */
 send(key,param)
+
+
 ```
 
 
