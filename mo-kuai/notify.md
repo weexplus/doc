@@ -119,7 +119,7 @@ setRoot(id)
       nav.push('page1.js')
   }
 
-  pushwidthparam()
+  pushWidthParam()
   {
    var self=this;
    var nav = weex.requireModule('navigator') ;
