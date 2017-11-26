@@ -8,7 +8,7 @@
 <template>
 
         <div   >
-            <div title="相机"   append="tree">
+            <div title="相机"  style="height:100px"  append="tree">
 
             </div>
            <looper ref="looper" font-size="25" @click="ok" :data="items"  color="#eeeeee"  style="width: 300;height: 100;background-color: #0088fb">
@@ -36,7 +36,7 @@
 
 
 </style>
-<style src="./style.css"></style>
+ 
 <script>
 
     var head =require('./header.vue')
@@ -72,74 +72,8 @@
                 this.index=res.index;
             },
 
-            openCamera()
-            {
-                var self=this;
-                const photo = weex.requireModule('photo');
-                photo.openCamera(500,800,'#000000',function(e){
-
-                    self.src=e.path;
-
-                    var net=weex.requireModule("net");
-                    net.postFile('http://59.110.169.246/movie/imgupload.do',{//param
-
-                       },{
-                        // header
-                         },{file:e.path},()=>{
-                        //start
-                    },(e)=>{
-                        //succcess
-                        var modal=weex.requireModule("modal")
-                        modal.toast({message:'上传成功！'})
-                    },()=>{
-                        //compelete
-
-                    },()=>{
-                        //exception
-                        var modal=weex.requireModule("modal")
-                        modal.toast({message:'上传异常！'})
-                    })
-                });
-            },
-            jk()
-            {
-
-
-                var self=this;
-                const photo = weex.requireModule('photo');
-                photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
-
-                    self.src=e.path;
-
-                    var net=weex.requireModule("net");
-                    net.postFile('http://59.110.169.246/movie/imgupload.do',{//param
-
-                    },{
-                        // header
-                    },{file:e.path},()=>{
-                        //start
-                    },(e)=>{
-                        //succcess
-                        var modal=weex.requireModule("modal")
-                        modal.toast({message:'上传成功！'})
-                    },()=>{
-                        //compelete
-
-                    },()=>{
-                        //exception
-                        var modal=weex.requireModule("modal")
-                        modal.toast({message:'上传异常！'})
-                    })
-                });
-
-//                const modal = weex.requireModule('modal');
-//                modal.toast({ message: '右边点击' });
-
-            },
-
-        },
-        created:function(){
-
+           
+           
 
 
 
