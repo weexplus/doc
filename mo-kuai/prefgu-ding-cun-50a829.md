@@ -35,51 +35,50 @@ getString(String key)
 ### Demo
 
 ```js
- saveString()
-          {
-              var pref=weex.requireModule("pref")
-              pref.set('key',this.text);
-              var modal=weex.requireModule("modal")
-              modal.toast({message:'存储成功'});
+     saveString()
+      {
+          var pref=weex.requireModule("pref")
+          pref.set('key',this.text);
+          var modal=weex.requireModule("modal")
+          modal.toast({message:'存储成功'});
 
-          },
+      },
 
-          getString()
-          {
-              var pref=weex.requireModule("pref")
-              var s= pref.get('key');
-              var modal=weex.requireModule("modal")
-              modal.toast({message:'存储成功的值'+s});
-          },
-          remove()
-            {
-                var pref=weex.requireModule("pref")
-                pref.remove('key')
-                pref.remove('objkey')
-                var s= pref.get('key');
-                var modal=weex.requireModule("modal")
-                modal.toast({message:'删除成功：'+s});
-            },
-          saveObj()
-          {
-              var pref=weex.requireModule("pref")
-              var obj={};
-              obj.a=1;
-              obj.b=2;
-              pref.setObj('objkey',obj);
-              var modal=weex.requireModule("modal")
-              modal.toast({message:'存储成功'});
-          },
+      getString()
+      {
+          var pref=weex.requireModule("pref")
+          var s= pref.get('key');
+          var modal=weex.requireModule("modal")
+          modal.toast({message:'存储成功的值'+s});
+      },
+      remove()
+        {
+            var pref=weex.requireModule("pref")
+            pref.remove('key')
+            pref.remove('objkey')
+            var s= pref.get('key');
+            var modal=weex.requireModule("modal")
+            modal.toast({message:'删除成功：'+s});
+        },
+      saveObj()
+      {
+          var pref=weex.requireModule("pref")
+          var obj={};
+          obj.a=1;
+          obj.b=2;
+          pref.setObj('objkey',obj);
+          var modal=weex.requireModule("modal")
+          modal.toast({message:'存储成功'});
+      },
 
-          getObj()
-          {
-              var pref=weex.requireModule("pref")
-              var p=  pref.getObj('objkey');
-              this.data=p;
+      getObj()
+      {
+          var pref=weex.requireModule("pref")
+          var p=  pref.getObj('objkey');
+          this.data=p;
 //              var modal=weex.requireModule("modal")
 //              modal.toast({message:p});
-          },
-
+      },
 ```
 
 
