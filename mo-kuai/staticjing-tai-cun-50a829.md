@@ -30,8 +30,50 @@ setString(key,value)
 * @param key
 */
 getString(String key)
+```
 
+### Demo
 
+```js
+   saveString()
+          {
+              var pref=weex.requireModule("static")
+              pref.setString('key',11111);
+              var modal=weex.requireModule("modal")
+              modal.toast({message:'存储成功'});
+          },
+
+          getString()
+          {
+              var pref=weex.requireModule("static")
+              var s= pref.getString('key');
+              var modal=weex.requireModule("modal")
+              modal.toast({message:'存储成功的值:'+s});
+          },
+          saveObj()
+          {
+              var pref=weex.requireModule("static")
+              var obj={};
+              obj.a=1;
+              obj.b=2;
+              obj.c=3;
+              pref.set('objkey',obj);
+              var modal=weex.requireModule("modal")
+              modal.toast({message:'存储成功'});
+              this.getObj();
+          },
+          gonext()
+          {
+              var nav=weex.requireModule("navigator")
+              nav.push('static1.js');
+          },
+
+          getObj()
+          {
+              var pref=weex.requireModule("static")
+              var p=  pref.get('objkey');
+              this.data=p;
+          },
 ```
 
 
