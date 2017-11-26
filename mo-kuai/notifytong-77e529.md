@@ -24,12 +24,10 @@ sendNative(key,param)
 ### Demo
 
 ```js
-
-
-
 send()
 {
     var p={};
+    p.v1='v1'
     var notify=weex.requireModule("notify")
     notify.send('key',p)
 }
@@ -39,13 +37,11 @@ send()
 
          const notify = weex.requireModule('notify');
          notify.regist("key",function (res) {
-              self.data=res.data;
+              var v= res.v1;
           });  
 
-         
+
        }
-
-
 ```
 
 
