@@ -79,7 +79,6 @@ dismissFull(param,animate)
 获取上一个页面传递来的参数
 */
 param()
-
 ```
 
 
