@@ -27,7 +27,8 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 * @param callback 回调，返回图片地址
 */
  openPhoto(  width,  height,  themeColor,  titleColor,cancelColor, callback )
- 
+
+单独打开相机
 /**
  * 
  * @param width
@@ -35,7 +36,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
  * @param themeColor
  * @param callback
  */
-  openCamera(int width,int height,String themeColor,final JSCallback callback )
+  openCamera( width, height, themeColor,  callback )
 ```
 
 
