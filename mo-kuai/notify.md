@@ -133,12 +133,10 @@ setRoot(id)
   present(){
     var self=this;
     var nav = weex.requireModule('navigator') ;
-    nav.presentFull('present.js',{a:'okoko'},'hidden',true,function (e) {
+    nav.presentFull('present.js',{a:'value'},'hidden',true,function (e) {
         self.callbackdata=e.ok;
     },true);
   },
-  
-  
 ```
 
 
