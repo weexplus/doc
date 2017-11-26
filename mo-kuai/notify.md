@@ -129,14 +129,14 @@ setRoot(id)
    param.a='value1'
    nav.pushParam('page1.js',param);
   }
-  
+
   present(){
     var self=this;
     var nav = weex.requireModule('navigator') ;
     nav.presentFull('present.js',{a:'okoko'},'hidden',true,function (e) {
         self.callbackdata=e.ok;
     },true);
-    },
+  },
 ```
 
 
