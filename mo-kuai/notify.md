@@ -4,8 +4,10 @@
 
 ### API
 
+导航跳转
+
 ```js
-注意：使用push打开的页面只能用back,backFull返回，使用present打开的页面，只能用dismiss关闭
+注意：使用push，pushParam，pushFull打开的页面只能用back,backFull返回，使用present打开的页面，只能用dismiss关闭
 
 /**
 @param url 相对地址
@@ -38,6 +40,24 @@ back()
 @param animate 是否使用动画，（android无效）
 */
 backFull(param,animate)
+
+
+/**
+打开一个页面
+*/
+presentFull(url,param, navbarVisibility, createnav,callback,animate)
+
+
+dismiss()
+
+```
+
+
+
+
+
+```
+
 ```
 
 
