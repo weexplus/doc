@@ -75,8 +75,9 @@ dismissFull(param,animate)
 获取参数
 
 ```js
+注意：此方法只有写在onPageInit里面才能有效获取
 /**
-获取上一个页面传递来的参数
+获取上一个页面传递来的参数，
 */
 param()
 ```
