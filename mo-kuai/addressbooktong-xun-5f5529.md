@@ -16,7 +16,7 @@ read(callback)
 ```
 read()
 {
-  var qr=weex.requireModule('qr')
+  var book=weex.requireModule('addressBook')
   var p={};
   p.color='#000000'
   p.bgcolor='#ffffff'
