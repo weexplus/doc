@@ -62,11 +62,6 @@ getString(String key)
               modal.toast({message:'存储成功'});
               this.getObj();
           },
-          gonext()
-          {
-              var nav=weex.requireModule("navigator")
-              nav.push('static1.js');
-          },
 
           getObj()
           {
