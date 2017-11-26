@@ -107,7 +107,6 @@ setRoot(id)
 现在来说一下怎么达到效果，假设有A->B->C三个页面，现在希望从C直接回到A
 1.在A的onPageInit中调用setRoot('A'),setPageId('A')
 2.在C中backTo('A')
-
 ```
 
 
