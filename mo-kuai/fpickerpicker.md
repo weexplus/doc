@@ -42,9 +42,11 @@ setItems3(list)
  setTheme( bgcolor, btncolor)
  
  
- 
- 
- 
+ 打开
+/*
+* 
+*/
+ show()
 ```
 
 
