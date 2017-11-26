@@ -58,7 +58,9 @@ present()
 */
 presentFull(url,param, navbarVisibility, createnav,callback,animate)
 
-
+/**
+关闭，present开头方法打开的页面
+*/
 dismiss()
 ```
 
