@@ -8,7 +8,7 @@
 
 ```js
 注意：使用push，pushParam，pushFull打开的页面只能用back,backFull返回，使用present打开的页面，只能用dismiss关闭
-     push打头的方法和present方法打头的方法区别是动画效果不一样，push是由右往左打开一个页面，present是由下往上打开一个
+     push打头的方法和present方法打头的方法区别是动画效果不一样，push是由右往左打开一个页面，present是由下往上打开
 
 /**
 @param url 相对地址
