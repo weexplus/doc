@@ -14,12 +14,9 @@ send(key,param)
 
 
 /**
-发送给原生
+ 发送给原生
 */
 sendNative(key,param)
-
-
-
 ```
 
 
