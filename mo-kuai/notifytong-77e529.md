@@ -13,6 +13,13 @@ regist(key,callback)
 send(key,param)
 
 
+/**
+发送给原生
+*/
+sendNative(key,param)
+
+
+
 ```
 
 
