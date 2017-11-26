@@ -26,13 +26,16 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 * @param cancelColor 相册选择页的取消文字颜色
 * @param callback 回调，返回图片地址
 */
- @JSMethod
  openPhoto(  width,  height,  themeColor,  titleColor,cancelColor, callback )
  
- 
- 
- 
- 
+/**
+ * 
+ * @param width
+ * @param height
+ * @param themeColor
+ * @param callback
+ */
+  openCamera(int width,int height,String themeColor,final JSCallback callback )
 ```
 
 
