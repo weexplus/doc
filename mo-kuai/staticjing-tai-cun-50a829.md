@@ -11,12 +11,14 @@
   * @param value
   */
  set(key,value)
- 
+
  /**
 * 获取对象
 * @param key
 */
  get(String key)
+ 
+ 
  
  
 ```
