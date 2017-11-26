@@ -40,6 +40,11 @@ setItems3(list)
 * @param btncolor 按钮文字颜色
 */
  setTheme( bgcolor, btncolor)
+ 
+ 
+ 
+ 
+ 
 ```
 
 
