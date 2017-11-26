@@ -8,7 +8,6 @@
 简单跳转
 push(url)
 
-
 /**
 @param url 相对地址
 @param param 参数
