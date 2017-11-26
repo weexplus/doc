@@ -17,6 +17,7 @@
 */
 open( width, height , themeColor, titleColor,  cancelColor,  callback)
 
+单独打开相册
 /**
 * @param aspX 照片宽度
 * @param aspY 照片高度
@@ -27,6 +28,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 */
  @JSMethod
  openPhoto(  width,  height,  themeColor,  titleColor,cancelColor, callback )
+ 
  
  
  
