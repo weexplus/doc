@@ -109,5 +109,33 @@ setRoot(id)
 2.在C中backTo('A')
 ```
 
+## Demo
+
+
+
+```js
+ push()
+  {
+      var nav = weex.requireModule('navigator') ;
+      //相对路径写法，也可以root:绝对路径
+      nav.push('net.js')
+  },
+  
+  pushwidthparam()
+  {
+  
+  var self=this;
+  var nav = weex.requireModule('navigator') ;
+  nav.setPageId('navigator');
+  //            nav.pushParam('nav1.js',{a:'这是传过来的值'});
+  nav.pushFull('nav1.js',{a:'这是传过来的值'},'hidden',function (e) {
+    self.callbackdata=e.ok;
+  },true);
+  }
+  
+```
+
+
+
 
 
