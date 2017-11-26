@@ -22,6 +22,7 @@ pushParam(url,param )
 @param animate 使用动画（android无效）
 */
 pushFull(url,param,navbarVisibility,callback,animate)
+
 ```
 
 
