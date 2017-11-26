@@ -113,7 +113,7 @@ setRoot(id)
 ## Demo
 
 ```js
-  /**跳转
+  /**推入式跳转
   push()
   {
       var nav = weex.requireModule('navigator') ;
@@ -121,6 +121,7 @@ setRoot(id)
       nav.push('page1.js')
   }
 
+  /**带参数推入式跳转
   pushWidthParam()
   {
    var self=this;
@@ -130,12 +131,12 @@ setRoot(id)
    nav.pushParam('page1.js',param);
   }
 
+  /弹出式跳转
   present(){
     var self=this;
     var nav = weex.requireModule('navigator') ;
     nav.present('page1.js')
   },
-  
 ```
 
 
