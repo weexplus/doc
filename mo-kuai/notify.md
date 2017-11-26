@@ -137,8 +137,8 @@ setRoot(id)
     var nav = weex.requireModule('navigator') ;
     nav.present('page1.js')
   },
-  
-  
+
+
   /**获取参数
   created:function(){
 
@@ -149,12 +149,11 @@ setRoot(id)
 
               var navigator = weex.requireModule('navigator') ;
               var param=navigator.param();
-             
+
 
 
           });
       }
-  
 ```
 
 

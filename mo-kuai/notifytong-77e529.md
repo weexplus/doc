@@ -21,5 +21,32 @@ send(key,param)
 sendNative(key,param)
 ```
 
+### Demo
+
+```js
+
+
+
+send()
+{
+    var p={};
+    var notify=weex.requireModule("notify")
+    notify.send('key',p)
+}
+
+
+   created:function(){
+
+         const notify = weex.requireModule('notify');
+         notify.regist("key",function (res) {
+              self.data=res.data;
+          });  
+
+         
+       }
+
+
+```
+
 
 
