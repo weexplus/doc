@@ -14,6 +14,10 @@
   * @param txt 加载的文字
   */
  showFull(txt)
+ 
+ 
+ 
+ 
 ```
 
 
