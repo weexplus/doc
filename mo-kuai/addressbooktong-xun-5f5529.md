@@ -19,7 +19,9 @@ read()
   var book=weex.requireModule('addressBook')
 
   book.read((res)=>{
-     
+  
+  var people=res.people;
+
   })
 }
 ```
