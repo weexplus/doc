@@ -116,7 +116,7 @@ setRoot(id)
   {
       var nav = weex.requireModule('navigator') ;
       //相对路径写法，也可以root:绝对路径
-      nav.push('net.js')
+      nav.push('page1.js')
   }
 
   pushwidthparam()
@@ -124,7 +124,7 @@ setRoot(id)
 
    var self=this;
    var nav = weex.requireModule('navigator') ;
-   nav.pushParam('nav1.js',{a:'这是传过来的值'});
+   nav.pushParam('page1.js',{a:'这是传过来的值'});
 
   }
 ```
