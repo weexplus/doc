@@ -133,6 +133,7 @@ setRoot(id)
   present(){
     var self=this;
     var nav = weex.requireModule('navigator') ;
+    nav.present('page1.js')
     nav.presentFull('present.js',{a:'value'},'hidden',true,function (e) {
         self.callbackdata=e.ok;
     },true);
