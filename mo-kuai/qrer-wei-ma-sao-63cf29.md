@@ -23,7 +23,6 @@ open()
   p.color='#000000'
   p.bgcolor='#ffffff'
   qr.open(p,(res)=>{
-  
     var url=res.url
   })
 }
