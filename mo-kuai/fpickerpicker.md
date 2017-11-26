@@ -48,10 +48,26 @@ setItems3(list)
 */
  show()
 
- /*
-* 关闭picker
-*/
-dismiss()
+  用户选中项目时调用此方法设置的回调
+ /**
+  * 回调
+  * @param callback
+  */
+ setDone(callback)
+ 
+ 
+ 
+ 三个滚轮滚动时触发的回调，可在此设置关联关系
+   /**
+   * 
+   * @param change1
+   * @param change2
+   * @param change3
+   */
+ setChange( change1, change2, change3)
+ 
+ 
+
 ```
 
 
