@@ -69,11 +69,7 @@ dismiss()
 @param param 带给上一个页面的参数
 @param animate 是否使用动画，（android无效）
 */
-backFull(param,animate)
-
-
-
-
+dismissFull(param,animate)
 ```
 
 ```
