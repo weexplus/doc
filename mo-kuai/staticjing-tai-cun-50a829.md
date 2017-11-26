@@ -35,7 +35,7 @@ getString(String key)
 ### Demo
 
 ```js
-   saveString()
+         saveString()
           {
               var pref=weex.requireModule("static")
               pref.setString('key',11111);
@@ -50,7 +50,7 @@ getString(String key)
               var modal=weex.requireModule("modal")
               modal.toast({message:'存储成功的值:'+s});
           },
-          
+
           saveObj()
           {
               var pref=weex.requireModule("static")
