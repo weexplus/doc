@@ -50,18 +50,14 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
         var self=this;
         const photo = weex.requireModule('photo');
         photo.openPhoto(500,800,'#000000','#ffffff','#ffffff',function(e){
-    
+
             self.src=e.path;
             var param={};
             var header={};
             var path={};
+            path.file=e.path;
             var net=weex.requireModule("net");
-            net.postFile('http://xxx/upload',{//param
-    
-            },{
-                // header
-            },{         
-               file:e.path},()=>{
+            net.postFile('http://xxx/upload',param,header,path,()=>{
                 //start
             },(e)=>{
                 //succcess
@@ -69,13 +65,13 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
                 modal.toast({message:'上传成功！'})
             },()=>{
                 //compelete
-    
+
             },()=>{
                 //exception
                 var modal=weex.requireModule("modal")
                 modal.toast({message:'上传异常！'})
             })
-    
+
         });
     },
 ```
