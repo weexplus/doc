@@ -72,9 +72,7 @@ dismiss()
 dismissFull(param,animate)
 ```
 
-```
-
-```
+获取参数
 
 
 
