@@ -99,7 +99,10 @@ backTo(id)
 */
 setPageId(id)
 
-
+/**
+将此页面及这个页面之后打开的页面纳入一个堆栈,
+*/
+setRoot(id)
 
 
 
