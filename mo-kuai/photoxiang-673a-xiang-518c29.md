@@ -19,8 +19,8 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 
 单独打开相册
 /**
-* @param aspX 照片宽度
-* @param aspY 照片高度
+* @param width 照片宽度
+* @param height 照片高度
 * @param themeColor 相册选择页的背景色
 * @param titleColor 相册选择页的标题文字颜色
 * @param cancelColor 相册选择页的取消文字颜色
@@ -31,10 +31,10 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 单独打开相机
 /**
  * 
- * @param width
- * @param height
- * @param themeColor
- * @param callback
+ * @param width 照片宽度
+ * @param height 照片高度
+ * @param themeColor 选择页的主题色
+ * @param callback 回调，返回图片地址
  */
   openCamera( width, height, themeColor,  callback )
 ```
