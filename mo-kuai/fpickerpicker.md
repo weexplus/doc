@@ -5,7 +5,9 @@ picker组件，最多三列，可简单定制外观
 ### API
 
 ```js
-设置picker有几列，此方法必须第一个调用，以初始化picker
+注意:setCount必须第一个调用，以初始化picker
+
+设置picker有几列
 /**
 * @param count 列数
 */
