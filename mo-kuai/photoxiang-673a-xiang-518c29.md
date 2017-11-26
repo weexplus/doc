@@ -74,15 +74,46 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 
         });
     },
-    
-    
-   
+
+
+
     openCamera()
             {
                 var self=this;
                 const photo = weex.requireModule('photo');
                 photo.openCamera(500,800,'#000000',function(e){
 
+                    self.src=e.path;
+                    var param={};
+                    var header={};
+                    var path={};
+                    path.file=e.path;
+                    var net=weex.requireModule("net");
+                    net.postFile('http://xxx/upload',param,header,path,()=>{
+                    //start
+                    },(e)=>{
+                    //succcess
+                    var modal=weex.requireModule("modal")
+                    modal.toast({message:'上传成功！'})
+                    },()=>{
+                    //compelete
+
+                    },()=>{
+                    //exception
+                    var modal=weex.requireModule("modal")
+                    modal.toast({message:'上传异常！'})
+                    })
+                });
+            },   
+
+
+             openAll()
+            {
+
+
+                var self=this;
+                const photo = weex.requireModule('photo');
+                photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
                     self.src=e.path;
                     var param={};
                     var header={};
@@ -104,47 +135,9 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
                     modal.toast({message:'上传异常！'})
                     })
                 });
-            },   
-            
-            
-             openAll()
-            {
 
-
-                var self=this;
-                const photo = weex.requireModule('photo');
-                photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
-
-                    self.src=e.path;
-
-                    var net=weex.requireModule("net");
-                    net.postFile('http://59.110.169.246/movie/imgupload.do',{//param
-
-                    },{
-                        // header
-                    },{file:e.path},()=>{
-                        //start
-                    },(e)=>{
-                        //succcess
-                        var modal=weex.requireModule("modal")
-                        modal.toast({message:'上传成功！'})
-                    },()=>{
-                        //compelete
-
-                    },()=>{
-                        //exception
-                        var modal=weex.requireModule("modal")
-                        modal.toast({message:'上传异常！'})
-                    })
-                });
- 
 
             }
-              
-    
-    
-    
-    
 ```
 
 
