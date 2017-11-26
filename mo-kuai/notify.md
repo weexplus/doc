@@ -121,7 +121,6 @@ setRoot(id)
 
   pushwidthparam()
   {
-
    var self=this;
    var nav = weex.requireModule('navigator') ;
    var param={};
