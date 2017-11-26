@@ -5,14 +5,12 @@
 ### Demo
 
 ```js
-
-
 <template>
 
         <div   >
             <div title="相机"   append="tree">
 
-            </head>
+            </div>
            <looper ref="looper" font-size="25" @click="ok" :data="items"  color="#eeeeee"  style="width: 300;height: 100;background-color: #0088fb">
 
            </looper>
