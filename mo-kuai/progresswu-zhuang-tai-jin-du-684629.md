@@ -36,7 +36,7 @@
             progress.show()
         },function(e){
             //success
-            self.back=e.res;
+        
         },function(e){
           //exception
 
