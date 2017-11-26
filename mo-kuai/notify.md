@@ -112,7 +112,7 @@ setRoot(id)
 ## Demo
 
 ```js
- push()
+  push()
   {
       var nav = weex.requireModule('navigator') ;
       //相对路径写法，也可以root:绝对路径
