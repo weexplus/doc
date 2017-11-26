@@ -5,18 +5,14 @@
 ### API
 
 ```
-const net = weex.requireModule('net');
-                net.post('http://121.40.81.1:9080/edu/getBanners.do',{a:"1",b:"2"},{},function(){
-                    //start
-                },function(e){
-                    //success
-                    self.back=e.res;
-                },function(e){
-                  //exception
+/**
+  * 显示
+  * @param key
+  * @param value
+  */
+ show(key,value)
 
-                },function(){
-                    //compelete
-                });
+
 ```
 
 
