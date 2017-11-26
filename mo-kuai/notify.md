@@ -38,6 +38,11 @@ back()
 @param animate 是否使用动画，（android无效）
 */
 backFull(param,animate)
+
+
+
+
+
 ```
 
 
