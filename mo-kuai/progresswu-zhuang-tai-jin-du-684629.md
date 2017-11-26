@@ -36,12 +36,13 @@
             progress.show()
         },function(e){
             //success
-        
+
         },function(e){
           //exception
 
         },function(){
             //compelete
+            progress.dismiss()
         });
 
 
