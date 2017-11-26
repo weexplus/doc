@@ -36,6 +36,11 @@ back()
 */
 backFull(param,animate)
 
+注意：使用push代开的页面只能用back,backFull返回 
+
+ 
+  
+    
 ```
 
 
