@@ -94,6 +94,14 @@ param()
 backTo(id)
 
 
+/**
+设置当前页的id
+*/
+setPageId(id)
+
+
+
+
 
 ```
 
