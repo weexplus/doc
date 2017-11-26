@@ -41,3 +41,18 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 
 
 
+## Demo
+
+```
+一般这个组件都是配合上传一起使用
+
+
+
+
+
+
+
+```
+
+
+
