@@ -33,7 +33,7 @@ send()
 }
 
 
-//写在created即可
+//写在其它页面created即可
 created:function(){
 
      const notify = weex.requireModule('notify');
