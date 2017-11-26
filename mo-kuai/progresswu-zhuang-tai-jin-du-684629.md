@@ -22,5 +22,30 @@
  dismiss()
 ```
 
+### Demo
+
+```js
+ post()
+    {
+         var self=this;
+        self.back="";
+        const net = weex.requireModule('net');
+        const progress = weex.requireModule('progress');        
+        net.post('http://121.40.81.1:9080/edu/getBanners.do',{a:"1",b:"2"},{},function(){
+            //start
+        },function(e){
+            //success
+            self.back=e.res;
+        },function(e){
+          //exception
+
+        },function(){
+            //compelete
+        });
+
+
+    },
+```
+
 
 
