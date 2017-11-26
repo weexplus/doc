@@ -54,9 +54,9 @@ setItems3(list)
   * @param callback
   */
  setDone(callback)
- 
- 
- 
+
+
+
  三个滚轮滚动时触发的回调，可在此设置关联关系
    /**
    * 
@@ -67,7 +67,13 @@ setItems3(list)
  setChange( change1, change2, change3)
  
  
-
+ /**
+*  选中某一列某一行
+* @param c 列数
+* @param row 行数
+* 
+*/
+ select( c, row)
 ```
 
 
