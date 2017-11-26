@@ -47,11 +47,11 @@ setItems3(list)
 * 显示picker
 */
  show()
- 
+
  /*
 * 关闭picker
 */
-show()
+dismiss()
 ```
 
 
