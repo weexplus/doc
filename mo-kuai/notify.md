@@ -113,6 +113,7 @@ setRoot(id)
 ## Demo
 
 ```js
+  /**跳转
   push()
   {
       var nav = weex.requireModule('navigator') ;
