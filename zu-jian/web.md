@@ -61,7 +61,7 @@
           load()
           {
             this.src='https://www.baidu.com'
-            this.src='<div>这是富文本文字</div>'
+            this.src='<div>这是富文本</div>'
           },
           pagestart()
           {
