@@ -15,9 +15,9 @@
    * @param exception status!=200的回调
    */ 
     post(url, param,header,start,success,compelete,exception)
-    
-    
-    
+
+
+
     /**
     * @param url 地址
     * @param param 参数
@@ -28,6 +28,10 @@
     * @param exception status!=200的回调
     */
     get(url, param,header,start,success,compelete,exception)
+    
+    
+    
+    
 ```
 
 
