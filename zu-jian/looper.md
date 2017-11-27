@@ -2,6 +2,14 @@
 
 文字轮播器
 
+| 属性 | 作用 |
+| :--- | :--- |
+| font-size | 字体大小 |
+| data | 数据源\(字符串数组\) |
+| color | 文字颜色 |
+
+### 
+
 ### Demo
 
 ```js
@@ -36,7 +44,7 @@
 
 
 </style>
- 
+
 <script>
 
     var head =require('./header.vue')
@@ -72,8 +80,8 @@
                 this.index=res.index;
             },
 
-           
-           
+
+
 
 
 

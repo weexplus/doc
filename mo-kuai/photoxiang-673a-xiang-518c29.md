@@ -48,7 +48,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 openAll()
 {
 
-        
+
         var self=this;
         const photo = weex.requireModule('photo');
         photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
@@ -66,7 +66,7 @@ openAll()
         modal.toast({message:'上传成功！'})
         },()=>{
         //compelete
-        
+
         },()=>{
         //exception
         var modal=weex.requireModule("modal")
@@ -138,10 +138,7 @@ openAll()
                     modal.toast({message:'上传异常！'})
                     })
                 });
-            },   
-
-
-            
+            },
 ```
 
 
