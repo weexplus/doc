@@ -6,7 +6,6 @@
 
 ```js
    /**
-     *
      * @param url
      * @param param
      * @param header
@@ -14,10 +13,8 @@
      * @param success
      * @param compelete
      * @param exception
-     */
-    @JSMethod
-    public void post(String url , HashMap param, HashMap header, final JSCallback start, final JSCallback success, final JSCallback compelete, final JSCallback exception)
-   
+     */ 
+      post(url, param,header,start,success,compelete,exception)
 ```
 
 
