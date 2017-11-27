@@ -11,7 +11,7 @@
 ```js
 <template>
   <div>
- 
+
       <div style="flex:1">
           <web :src="src" bounce="false" @pagestart="pagestart" @pagefinish="pagefinish"  @error="pagefinish" style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red">
 
@@ -61,6 +61,7 @@
           load()
           {
             this.src='https://www.baidu.com'
+            this.src='<div>这是富文本文字</div>'
           },
           pagestart()
           {
