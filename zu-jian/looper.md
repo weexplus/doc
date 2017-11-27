@@ -7,6 +7,8 @@
 | font-size | 字体大小 |
 | data | 数据源\(字符串数组\) |
 | color | 文字颜色 |
+| interval | 轮播的时间间隔，单位秒 |
+| text-align | 文字居中（center），居左\(left\)，居右\(right\) |
 
 ### 
 
