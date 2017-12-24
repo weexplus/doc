@@ -13,7 +13,6 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 3. 安装`weex-toolkit`，已安装的请忽略
 
    ```bash
-
    npm install  weex-toolkit -g
    ```
 
@@ -25,7 +24,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
    npm install weexplus -g
    ```
 
-   `wxp`工具为我们提供了很多常用的开发功能，后续会一一介绍。
+   weexplus工具为我们提供了很多常用的开发功能，后续会一一介绍。
 
 5. 创建项目
 
