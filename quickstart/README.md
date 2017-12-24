@@ -10,13 +10,11 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    最简单的安装方法就是直接安装[官网的安装包]([https://nodejs.org/zh-cn/download)，至于其它的使用包管理或者源码安装的方法请自行搜索。
 
-3. 安装`cnpm`和`weex-toolkit`，已安装的请忽略
-
-   使用`cnpm`是为了避免国内用户下载和安装`node`模块过慢的情况。使用命令行执行
+3. 安装`weex-toolkit`，已安装的请忽略
 
    ```bash
-   npm i -g cnpm
-   cnpm install -g weex-toolkit
+
+   npm install  weex-toolkit -g
    ```
 
 4. 安装脚手架工具`weexplus`，已安装的请忽略
