@@ -34,7 +34,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
    切换到你的工作目录，执行
 
    ```bash
-   wxp new my_project
+   weexplus create my_project
    ```
 
    按照提示完成项目创建。此时在当前目录下就会有一个名为`my_project`的目录，里面就是我们的项目源码。
