@@ -40,27 +40,23 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    在命令行中执行
 
-   ```bash
+   ```
    cd my_project
 
    npm install
 
    npm run weexplus
 
-
    ```
 
-   然后打开浏览器前往`http://localhost:9999`就可以看到项目运行的效果，使用playground扫描页面上的二维码可以在手机中查看运行效果。
+       然后打开浏览器前往`http://localhost:9999`就可以看到项目运行的效果，使用playground扫描页面上的二维码可以在手机中查看运行效果。
 
-7. 调试
+    7. 调试
 
-   还是在命令行中执行
+       还是在命令行中执行
 
-   ```bash
-   npm run debug
-   ```
+       ```bash
+       npm run debug
 
-   此时会打开调试设备列表页面，之后的操作和官网一样，具体调试方法请参考[官网说明](https://weex.apache.org/cn/guide/tools/toolkit.html#调试-Weex-页面)。
-
-
+此时会打开调试设备列表页面，之后的操作和官网一样，具体调试方法请参考[官网说明](https://weex.apache.org/cn/guide/tools/toolkit.html#调试-Weex-页面)。
 
