@@ -42,8 +42,12 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    ```bash
    cd my_project
+
    npm install
+
    npm run weexplus
+
+
    ```
 
    然后打开浏览器前往`http://localhost:9999`就可以看到项目运行的效果，使用playground扫描页面上的二维码可以在手机中查看运行效果。
