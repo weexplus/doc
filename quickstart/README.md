@@ -48,9 +48,9 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
    npm run weexplus
    ```
 
-   ```
-   然后打开浏览器前往http://ip:9999/index.js 如果可以正常访问，再把此url生成二维码，打开使用playground扫描页面上的二维码可以在手机中查看运行效果。
-   ```
+
+
+
 
    1. 调试
 
