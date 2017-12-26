@@ -43,10 +43,10 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 ```
   cd my_project
 
- npm install
+  npm install
 
   npm run weexplus
-  
+
   weexplus run ios
 ```
 
