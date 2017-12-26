@@ -48,16 +48,13 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
    npm run weexplus
    ```
 
-   然后打开浏览器前往http://ip:9999/index.js 如果可以正常访问，再把此url生成二维码，打开使用playground扫描页面上的二维码可以在手机中查看运行效果
+   然后打开浏览器前往[http://ip:9999/index.js](http://ip:9999/index.js) 如果可以正常访问，再把此url生成二维码，打开使用playground扫描页面上的二维码可以在手机中查看运行效果
 
 7. 调试
 
-1. 调试
+还是在命令行中执行
 
-   还是在命令行中执行
-
-   \`\`\`bash  
-   npm run debug
+   weex debug
 
 此时会打开调试设备列表页面，之后的操作和官网一样，具体调试方法请参考[官网说明](https://weex.apache.org/cn/guide/tools/toolkit.html#调试-Weex-页面)。
 
