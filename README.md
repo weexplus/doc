@@ -17,5 +17,5 @@ weexplus是基于weex官方的二次开发版本，weex和react native一样同�
 2. 热刷新，你只需要ctrl+s,手机就会自动刷新界面，提高开发效率
 3. 常用组件都有了，具体可以参考左边的目录，最重要的tab框架，和抽屉框架，我们已经有了，所有的组件只要是放出来的都是双端支持的
 
-最后附上git地址：[https://github.com/weexplus/boilerplate](https://github.com/weexplus/boilerplate)
+最后附上git地址：[https://github.com/weexplus/boilerplate](https://github.com/weexplus/boilerplate)，期待更多的同学加入我
 
