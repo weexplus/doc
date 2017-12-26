@@ -6,7 +6,8 @@
 
 2. 找到位于下方的终端选项卡，开启一个，输入npm install，回车
 
-3. 上一步完毕之后，输入npm run weexplus 
+3. 上一步完毕之后，输入npm run weexplus
 
+4. 
 
 
