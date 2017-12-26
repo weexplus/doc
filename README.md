@@ -10,8 +10,6 @@ weexplus是基于weex官方的二次开发版本，weex和react native一样同�
 2. 创建项目`weexplus create demo`
 3. 控制台进入项目目录，开启开发模式 `npm run weexplus`
 4. weexplus run ios/android\(usb数据线连上手机\)即可看到效果
-
-
-
+5. 
 
 
