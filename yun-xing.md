@@ -8,9 +8,9 @@
 
 3. 上一步完毕之后，输入npm run weexplus（如果报vue和vue-template-complier dismatch的错，
 
-     npm install vue@2.4.4 --save 可能还会报一次相同的错，再运行 npm install vue-template-complier@2.4.4 --save
+   npm install vue@2.4.4 --save 可能还会报一次相同的错，再运行 npm install vue-template-complier@2.4.4 --save\)
 
- 
+4. 这之后你会看到
 
 
 
