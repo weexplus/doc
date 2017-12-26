@@ -6,3 +6,5 @@ weexplus是基于weex官方的二次开发版本，weex和react native一样同�
 
 
 
+如果你是一个前端，假设你已经安装好了weex环境，现在你只需要 `npm install weexplus -g `
+
