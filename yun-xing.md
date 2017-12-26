@@ -10,7 +10,7 @@
 
    npm install vue@2.4.4 --save 可能还会报一次相同的错，再运行 npm install vue-template-complier@2.4.4 --save\)
 
-4. 这之后如果看到![](/assets/WechatIMG48.png)
+4. 这之后如果看到一下界面证明weex的环境好了![](/assets/WechatIMG48.png)
 
 5. 
 
