@@ -1,6 +1,6 @@
 # 调试
 
-控制台 weex debug 
+控制台 `weex debug`
 
-
+此时会弹出浏览器
 
