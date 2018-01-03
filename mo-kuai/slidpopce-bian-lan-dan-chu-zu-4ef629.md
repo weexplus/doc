@@ -11,7 +11,7 @@
      * @param param 参数
      * @param delt 宽度或者高度
      * @param offset  边距
-     * @param side 上下左右(left,top,right,bottom)
+     * @param side 从那一边出来(left,top,right,bottom)
      */
    public void show(String url, HashMap param,float delt,HashMap offset,String side)
 
@@ -28,7 +28,7 @@
  open()
  {
      var pop=weex.requireModule("slidpop")
-     pop.show('center.js',{},600,{},'bottom')
+     pop.show('page1.js',{},600,{},'bottom')
  }
 
  close()
