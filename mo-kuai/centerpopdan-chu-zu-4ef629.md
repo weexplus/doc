@@ -26,8 +26,8 @@
 ```
  open()
  {
-     var pop=weex.requireModule("slidpop")
-     pop.show('page1.js',{},600,{},'bottom')
+     var pop=weex.requireModule("centerpop")
+     pop.show('center.js',{width:500,height:700},{},true);
  }
 
  close()
