@@ -27,7 +27,7 @@
  open()
  {
      var pop=weex.requireModule("centerpop")
-     pop.show('center.js',{width:500,height:700},{},true);
+     pop.show('page.js',{width:500,height:700},{},true);
  }
 
  close()
