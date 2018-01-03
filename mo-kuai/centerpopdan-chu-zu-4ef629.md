@@ -11,10 +11,9 @@
      * @param style (内置参数：width,height)
      * @param param 传递的参数
      * @param clickDismiss  点击遮罩层是否消失
-     
      */
     public void show(String url, HashMap style, HashMap param, Boolean clickDismiss)
-    
+
 
     /**
     *关闭
