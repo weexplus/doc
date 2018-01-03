@@ -16,13 +16,10 @@
    public void show(String url, HashMap param,float delt,HashMap offset,String side)
 
 
-
-
     /**
     *关闭
     */
     public  void dismiss()
-    
 ```
 
 
