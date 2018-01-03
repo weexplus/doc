@@ -15,6 +15,7 @@
   * [qr\(二维码扫描\)](mo-kuai/qrer-wei-ma-sao-63cf29.md)
   * [addressBook\(通讯录\)](mo-kuai/addressbooktong-xun-5f5529.md)
   * [net\(网络访问\)](mo-kuai/netwang-luo-fang-95ee29.md)
+  * [slidpop\(侧边栏弹出组件\)](mo-kuai/slidpopce-bian-lan-dan-chu-zu-4ef629.md)
 * [组件](zu-jian.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
   * [host\(多页组件\)](zu-jian/hostduo-ye-zu-4ef629.md)
