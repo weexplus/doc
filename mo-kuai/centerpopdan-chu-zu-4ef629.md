@@ -32,7 +32,7 @@
 
  close()
  {
-    var pop=weex.requireModule("slidpop")
+    var pop=weex.requireModule("centerpop")
     pop.dismiss();
  }
 ```
