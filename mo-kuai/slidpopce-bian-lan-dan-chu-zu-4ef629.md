@@ -22,5 +22,21 @@
     public  void dismiss()
 ```
 
+### Demo
+
+```
+ open()
+ {
+     var pop=weex.requireModule("slidpop")
+     pop.show('center.js',{},600,{},'bottom')
+ },
+ 
+ close()
+ {
+    var pop=weex.requireModule("slidpop")
+    pop.dismiss();
+ }
+```
+
 
 
