@@ -1,6 +1,6 @@
 # config.json配置说明
 
-在src下有个config.json
+在src下有个config.json,请不要改变它的位置与名称
 
 ```js
 {
