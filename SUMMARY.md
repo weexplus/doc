@@ -5,6 +5,7 @@
 * [运行](yun-xing.md)
 * [调试](diao-shi.md)
 * [图片使用](tu-pian.md)
+* [config.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [打包](da-bao.md)
   * [ios](da-bao/ios.md)
   * [android](da-bao/android.md)
@@ -28,5 +29,4 @@
   * [floading\(小菊花进度指示器\)](zu-jian/floading.md)
   * [image\(扩展\)](zu-jian/imagekuo-5c5529.md)
   * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
-* [root写法](rootxie-fa.md)
 
