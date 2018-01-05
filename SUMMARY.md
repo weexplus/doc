@@ -4,6 +4,7 @@
 * [快速开始](quickstart/README.md)
 * [运行](yun-xing.md)
 * [调试](diao-shi.md)
+* [图片](tu-pian.md)
 * [模块](mo-kuai.md)
   * [navigator\(导航控制器\)](mo-kuai/notify.md)
   * [notify\(通知\)](mo-kuai/notifytong-77e529.md)
