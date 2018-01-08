@@ -31,8 +31,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
    切换到你的工作目录，执行
 
    ```bash
-   weexplus create my_project windows版的好像又bug，如果拉不下来，请直接 git clone git@github.com:weexplus/boilerplate.git
-
+   weexplus create my_projectt
    ```
 
    按照提示完成项目创建。此时在当前目录下就会有一个名为`my_project`的目录，里面就是我们的项目源码。
