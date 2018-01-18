@@ -22,6 +22,7 @@
   * [net\(网络访问\)](mo-kuai/netwang-luo-fang-95ee29.md)
   * [slidpop\(侧边栏弹出组件\)](mo-kuai/slidpopce-bian-lan-dan-chu-zu-4ef629.md)
   * [centerpop\(弹出组件\)](mo-kuai/centerpopdan-chu-zu-4ef629.md)
+  * [font\(添加新字体\)](mo-kuai/font.md)
 * [组件](zu-jian.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
   * [host\(多页组件\)](zu-jian/hostduo-ye-zu-4ef629.md)
