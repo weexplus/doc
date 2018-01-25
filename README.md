@@ -9,7 +9,8 @@ weexplus是基于weex官方的二次开发版本，weex和react native一样同�
 1. 安装weexplus `npm install weexplus -g`
 2. 创建项目`weexplus create demo 也可以直接到`[`https://github.com/weexplus/boilerplate`](https://github.com/weexplus/boilerplate)直接下载
 3. 控制台进入项目目录，开启开发模式 `npm run weexplus`
-4. weexplus run ios/android\(usb数据线连上手机\)即可看到效果
+4. 项目下apk/app-debug.apk直接安装，扫码即可开始开发
+5. weexplus run ios/android\(usb数据线连上手机\)即可看到效果
 
 我们的优势：
 
