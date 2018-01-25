@@ -15,7 +15,6 @@
 ### Demo
 
 ```
-
   var font=weex.requireModule("font");
   font.addFont('erp','root:font/agriculture.ttf')
 ```
