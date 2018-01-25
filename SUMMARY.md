@@ -4,7 +4,7 @@
 * [快速开始](quickstart/README.md)
 * [运行](yun-xing.md)
 * [调试](diao-shi.md)
-* [根路径](gen-lu-jing.md)
+* [根路径\(root:\)](gen-lu-jing.md)
 * [图片使用](tu-pian.md)
 * [config.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [打包](da-bao.md)
