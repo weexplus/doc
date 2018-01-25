@@ -7,7 +7,7 @@
 ```
    /**
      * 打开
-     * @param url 弹出页面的js地址
+     * @param url 弹出页面的js地址（支持root:写法）
      * @param param 参数
      * @param delt 宽度或者高度
      * @param offset  边距
