@@ -11,18 +11,19 @@
      push打头的方法和present方法打头的方法区别是动画效果不一样，push是由右往左打开一个页面，present是由下往上打开
 
 /**
-@param url 相对地址
+@param url 相对地址（支持root:写法）
 */
 push(url)
 
 /**
-@param url 相对地址
+@param url 相对地址（支持root:写法）
 @param param 参数
 */
 pushParam(url,param )
 
+
 /**
-@param url 相对地址
+@param url 相对地址（支持root:写法）
 @param param 参数
 @param navbarVisibility 原生导航栏是否可见（已废弃）
 @param callback 页面返回时的回调
