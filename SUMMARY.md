@@ -25,12 +25,12 @@
   * [centerpop\(弹出组件\)](mo-kuai/centerpopdan-chu-zu-4ef629.md)
   * [font\(添加新字体\)](mo-kuai/font.md)
   * [组件](zu-jian.md)
-  * [looper\(轮播器\)](zu-jian/looper.md)
-  * [host\(多页组件\)](zu-jian/hostduo-ye-zu-4ef629.md)
-  * [web\(扩展\)](zu-jian/web.md)
-  * [floading\(小菊花进度指示器\)](zu-jian/floading.md)
-  * [image\(扩展\)](zu-jian/imagekuo-5c5529.md)
-  * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
+      * [looper\(轮播器\)](zu-jian/looper.md)
+      * [host\(多页组件\)](zu-jian/hostduo-ye-zu-4ef629.md)
+      * [web\(扩展\)](zu-jian/web.md)
+      * [floading\(小菊花进度指示器\)](zu-jian/floading.md)
+      * [image\(扩展\)](zu-jian/imagekuo-5c5529.md)
+      * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
 
 
 
