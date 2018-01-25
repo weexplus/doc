@@ -7,7 +7,7 @@
 ```
    /**
      * 打开
-     * @param url 弹出页面的js地址
+     * @param url 弹出页面的js地址（支持root:写法）
      * @param style (内置参数：width,height)
      * @param param 传递的参数
      * @param clickDismiss  点击遮罩层是否消失
