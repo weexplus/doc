@@ -24,5 +24,4 @@
   * [slidpop\(侧边栏弹出组件\)](mo-kuai/slidpopce-bian-lan-dan-chu-zu-4ef629.md)
   * [centerpop\(弹出组件\)](mo-kuai/centerpopdan-chu-zu-4ef629.md)
   * [font\(添加新字体\)](mo-kuai/font.md)
-* [根路径](gen-lu-jing.md)
 
