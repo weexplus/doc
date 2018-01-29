@@ -76,13 +76,16 @@ get()
     var self=this;
     const net = weex.requireModule('net');
     var st=weex.requireModule('static')
-    st.p
+    var sessionId=st.getString('sessionId')
+    var header={};
+    p.Cookie=sessionId;
     self.back="";
-    net.get('http://121.40.81.1:9080/edu/getBanners.do',{},{},function(){
+    net.get('http://121.40.81.1:9080/edu/getBanners.do',{},header,function(){
         //start
     },function(e){
         //success
         self.back=e.res;
+        st.setString('sessionId',e.res.sessionid);
     },function(e){
         //exception
 
