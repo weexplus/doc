@@ -72,7 +72,7 @@
 get()
 {
 
-
+   //一个保持session的demo
     var self=this;
     const net = weex.requireModule('net');
     var st=weex.requireModule('static')
