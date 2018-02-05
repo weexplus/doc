@@ -23,8 +23,8 @@
      * @param compelete 完成的回调，不论请求成功失败
      * @param exception status!=200的回调
      */
-    postJson(String url , HashMap param, HashMap header, final JSCallback start, final JSCallback success, final JSCallback compelete, final JSCallback exception)
-    
+    postJson(url, param,header,start,success,compelete, exception)
+
 
 
 
