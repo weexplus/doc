@@ -15,6 +15,16 @@
    * @param exception status!=200的回调
    */ 
     post(url, param,header,start,success,compelete,exception)
+    
+    
+    
+     /* @param start 开始的回调
+     * @param success status==200的回调
+     * @param compelete 完成的回调，不论请求成功失败
+     * @param exception status!=200的回调
+     */
+    public void postJson(String url , HashMap param, HashMap header, final JSCallback start, final JSCallback success, final JSCallback compelete, final JSCallback exception)
+    {
 
 
 
@@ -28,6 +38,7 @@
     * @param exception status!=200的回调
     */
     get(url, param,header,start,success,compelete,exception)
+    
 
 
 
