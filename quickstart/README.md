@@ -8,7 +8,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
 2. 安装`NodeJs`，已安装的请忽略
 
-   最简单的安装方法就是直接安装[官网的安装包]([https://nodejs.org/zh-cn/download)，至于其它的使用包管理或者源码安装的方法请自行搜索。
+   最简单的安装方法就是直接安装[官网的安装包](https://nodejs.org/en/download/)，至于其它的使用包管理或者源码安装的方法请自行搜索。
 
 3. 安装`weex-toolkit`，已安装的请忽略
 
