@@ -3,6 +3,7 @@
 * [概述](README.md)
 * [快速开始](quickstart/README.md)
 * [运行](yun-xing.md)
+* [更新](geng-xin.md)
 * [调试](diao-shi.md)
 * [根路径\(root:\)](gen-lu-jing.md)
 * [图片使用](tu-pian.md)
@@ -31,6 +32,4 @@
   * [floading\(小菊花进度指示器\)](zu-jian/floading.md)
   * [image\(扩展\)](zu-jian/imagekuo-5c5529.md)
   * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
-
-
 
