@@ -32,6 +32,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    ```bash
    weexplus create my_projectt com.app.id 名称 (3个参数：1.项目名称 2.appid 3.app名称)
+   如果网速不好，老是下载失败的同学
    ```
 
    按照提示完成项目创建。此时在当前目录下就会有一个名为`my_project`的目录，里面就是我们的项目源码。
