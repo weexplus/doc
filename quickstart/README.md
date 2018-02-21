@@ -32,7 +32,10 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    ```bash
    weexplus create my_projectt com.app.id 名称 (3个参数：1.项目名称 2.appid 3.app名称)
-   如果网速不好，老是下载失败的同学
+   如果网速不好，老是下载失败的同学请直接前往 https://github.com/weexplus/boilerplate，下载压缩包格式的，下载完之后解压得到一个
+   boilerplate-master 文件夹，cd到跟boilerplate-master平级的目录，运行weexplus rename project_name com.demo.id appname 
+   即可更改名称
+
    ```
 
    按照提示完成项目创建。此时在当前目录下就会有一个名为`my_project`的目录，里面就是我们的项目源码。
