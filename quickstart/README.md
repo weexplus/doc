@@ -28,7 +28,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
 5. 创建项目
 
-   切换到你的工作目录，执行
+   切换到你的工作目录，执行**\(windows下务必确保使用管理员模式打开的cmd\)**
 
    ```bash
    weexplus create my_projectt com.app.id 名称 (3个参数：1.项目名称 2.appid 3.app名称)
