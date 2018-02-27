@@ -33,11 +33,14 @@ exit()
 var page=weex.requireModule("page")
 page.reload();
 page.doubleBack();
+
 page.enableBackKey(false);
 page.setBackKeyCallback(()=>{
  page.enableBackKey(true);
 
 })
+
+page.exit();
 ```
 
 
