@@ -30,7 +30,8 @@ exit()
 # Demo
 
 ```
-var page=weex
+weex.requireModule("notify")
+
 ```
 
 
