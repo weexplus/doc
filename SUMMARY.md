@@ -33,4 +33,5 @@
   * [floading\(小菊花进度指示器\)](zu-jian/floading.md)
   * [image\(扩展\)](zu-jian/imagekuo-5c5529.md)
   * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
+  * [arc\(扇形组件\)](zu-jian/arcshan-xing-zu-4ef629.md)
 
