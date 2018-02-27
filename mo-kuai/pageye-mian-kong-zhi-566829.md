@@ -29,8 +29,8 @@ exit()
 
 # Demo
 
-```
-weex.requireModule("notify")
+```js
+var page=weex.requireModule("page")
 
 ```
 
