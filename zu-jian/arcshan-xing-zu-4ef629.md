@@ -10,7 +10,7 @@
 
 # Demo
 
-```
+```js
 <template>
     <div :style="{'width':diameter,'height':diameter}"   style="align-items: center;justify-content: center;">
         <arc class="fill" :style="{'width':diameter,'height':diameter}" start="270" angle="360" color="#bdbdbd" ></arc>
