@@ -32,6 +32,7 @@ exit()
 ```js
 var page=weex.requireModule("page")
 page.reload();
+page.doubleBack();
 ```
 
 
