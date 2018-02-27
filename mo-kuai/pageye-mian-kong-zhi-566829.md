@@ -33,6 +33,9 @@ exit()
 var page=weex.requireModule("page")
 page.reload();
 page.doubleBack();
+page.enableBackKey(true);
+page.setBackKeyCallback(()=>{})
+
 ```
 
 
