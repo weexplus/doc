@@ -27,5 +27,11 @@ setBackKeyCallback(callback)
 exit()
 ```
 
+# Demo
+
+```
+var page=weex
+```
+
 
 
