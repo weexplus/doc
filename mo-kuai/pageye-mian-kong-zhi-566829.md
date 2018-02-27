@@ -23,11 +23,8 @@ enableBackKey(enbale)
 setBackKeyCallback(callback)
 
 
-/**退出应用
+/**退出应用（android）
 exit()
-
-
-
 ```
 
 
