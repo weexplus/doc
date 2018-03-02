@@ -128,6 +128,16 @@ setRoot(id)
    var param={};
    param.a='value1'
    nav.pushParam('page1.js',param);
+   //或者
+   nav.pushFull({
+                    url: 'navlanscape.js',
+                    param: {a: '这是传过来的值'},
+                    animate:true,
+                    isPortrait:false
+                }, (e) => {
+                    if (e != undefined)
+                        self.callbackdata = e.ok;
+                })
   }
 
   /**弹出式跳转
@@ -135,6 +145,16 @@ setRoot(id)
     var self=this;
     var nav = weex.requireModule('navigator') ;
     nav.present('page1.js')
+    //或者
+    nav.presentFull({
+        url: 'navlanscape.js',
+        param: {a: '这是传过来的值'},
+        animate:true,
+        isPortrait:false
+        }, (e) => {
+        if (e != undefined)
+        self.callbackdata = e.ok;
+        })
   },
 
 
