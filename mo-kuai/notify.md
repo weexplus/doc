@@ -28,7 +28,7 @@ pushParam(url,param )
 @param callback 页面返回时的回调
 @param animate 使用动画（android无效）
 */
-pushFull(url,param,callback,animate)
+pushFull(parameters,callback)
 
 /**
 关闭当前页面，返回上一个页面，
@@ -56,7 +56,7 @@ present()
 @param  callback 页面返回时的回调
 @param  animate 使用动画（android无效）
 */
-presentFull(url,param, createnav,callback,animate)
+presentFull(parameters,callback)
 
 /**
 关闭，present开头方法打开的页面
