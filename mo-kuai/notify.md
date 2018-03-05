@@ -48,11 +48,8 @@ present()
 
 /**
 打开一个页面，动画是从下往上弹出来
-@param url 相对地址（支持root:写法）
-@param param 参数
-@param createnav 是否创建导航控制器，默认是（后面会废弃）
+@param parameters (url：'地址',param:'参数',animate:'是否使用动画',isPortrait:'是否是竖屏')
 @param  callback 页面返回时的回调
-@param  animate 使用动画（android无效）
 */
 presentFull(parameters,callback)
 
