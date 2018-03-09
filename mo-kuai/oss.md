@@ -35,12 +35,16 @@ openAll()
                var  total=process.total;
 
           },(res)=>{
-          
+
              if(res.err==0)
              {
-             
+                 console.log('成功')
              }
              else
+             {
+                console.log('失败')
+
+             }
           })
 
     });
