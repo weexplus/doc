@@ -27,6 +27,7 @@
   * [centerpop\(弹出组件\)](mo-kuai/centerpopdan-chu-zu-4ef629.md)
   * [font\(添加新字体\)](mo-kuai/font.md)
   * [page\(页面控制器\)](mo-kuai/pageye-mian-kong-zhi-566829.md)
+  * [oss](mo-kuai/oss.md)
 * [组件](zu-jian.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
   * [host\(多页组件\)](zu-jian/hostduo-ye-zu-4ef629.md)
