@@ -23,14 +23,26 @@ openAll()
     var self=this;
     const photo = weex.requireModule('photo');
     photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
-   
+
           var oss=weex.requireModule('oss');
           var param={}
-          param
+          param.Endpoint=''
+          param.AccessKeyId=''
+          param.AccessKeySecret=''
+          param.SecurityToken=''
           oss.upload(e.path,param,(process)=>{
+              var send= process.send;
+               var  total=process.total;
+
           },(res)=>{
+          
+             if(res.err==0)
+             {
+             
+             }
+             else
           })
-     
+
     });
 
 
