@@ -14,8 +14,27 @@ upload( url,param,progress,compelete)
 
 ## Demo
 
-```
-var oss=weex.requ
+```js
+//以图片上传为例
+openAll()
+{
+
+
+    var self=this;
+    const photo = weex.requireModule('photo');
+    photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
+   
+          var oss=weex.requireModule('oss');
+          var param={}
+          param
+          oss.upload(e.path,param,(process)=>{
+          },(res)=>{
+          })
+     
+    });
+
+
+}
 ```
 
 
