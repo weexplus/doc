@@ -25,7 +25,7 @@ openAll()
     photo.open(500,800,'#000000','#ffffff','#ffffff',function(e){
 
           var oss=weex.requireModule('oss');
-          var param={}
+          var param={}//从你们后台获取，需要和阿里对接
           param.Endpoint=''
           param.AccessKeyId=''
           param.AccessKeySecret=''
