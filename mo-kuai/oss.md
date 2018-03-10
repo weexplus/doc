@@ -30,6 +30,7 @@ openAll()
           param.AccessKeyId=''
           param.AccessKeySecret=''
           param.SecurityToken=''
+          param.BucketName=''
           oss.upload(e.path,param,(process)=>{
               var send= process.send;
                var  total=process.total;
