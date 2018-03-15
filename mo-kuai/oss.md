@@ -5,11 +5,11 @@
 ```
  /**
      * @param url 文件地址(native端的)
-     * @param param 服务器请求参数
+     * @param params 包含参数(url,param,objectkey)
      * @param progress 上传进度
      * @param compelete 上传结束(成功:err=0;失败:err=1)
      */
-upload( url,param,progress,compelete)
+upload( params,progress,compelete)
 ```
 
 ## Demo
@@ -31,7 +31,14 @@ openAll()
           param.AccessKeySecret=''
           param.SecurityToken=''
           param.BucketName=''
-          oss.upload(e.path,param,(process)=>{
+          
+          var params={}
+          params.param=param;
+          params.url=e.path;
+          //上传路径
+          params.objectkey='xxx/xxx/xx.png' 
+          
+          oss.upload(params,(process)=>{
               var send= process.send;
                var  total=process.total;
 
