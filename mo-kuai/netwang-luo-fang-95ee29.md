@@ -1,6 +1,6 @@
 # net
 
-网络请求
+网络请求，自动保持cookie
 
 ### API
 
@@ -53,6 +53,20 @@
     * @param exception status!=200的回调
     */
      postFile(url, param,header,path,start,success,compelete,exception)
+     
+     
+    
+     
+   /**获取sessionid
+    * @param url 地址
+   */       
+   getSessionId( url)
+   
+   
+   /**清除所有cookie
+    * 
+   */ 
+    removeAllCookies()
 ```
 
 ### 
