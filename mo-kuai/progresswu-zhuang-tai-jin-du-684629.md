@@ -12,8 +12,9 @@
 
  /**
   * @param txt 加载的文字
+  * @param cancel 点击背景是否消失
   */
- showFull(txt)
+ showFull(txt，cancel)
 
 
 /**
