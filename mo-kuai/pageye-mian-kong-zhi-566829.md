@@ -25,6 +25,9 @@ setBackKeyCallback(callback)
 
 /**退出应用（android有效）
 exit()
+
+/**设置启动的主页面 url(相对地址，支持root:写法)
+setMainPage(url)
 ```
 
 # Demo
