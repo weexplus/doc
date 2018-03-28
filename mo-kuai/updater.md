@@ -11,7 +11,11 @@
 **/
 docheck(param)
 
-
+/**
+* url下载地址，
+* android 的是apk的下载地址
+* ios是商店的地址
+**/
 download(url)
 ```
 
