@@ -66,7 +66,7 @@ getString(String key)
           var obj={};
           obj.a=1;
           obj.b=2;
-          pref.setObj('objkey',obj);
+          pref.set('objkey',obj);
           var modal=weex.requireModule("modal")
           modal.toast({message:'存储成功'});
       },
@@ -74,7 +74,7 @@ getString(String key)
       getObj()
       {
           var pref=weex.requireModule("pref")
-          var p=  pref.getObj('objkey');
+          var p=  pref.get('objkey');
           this.data=p;
 //              var modal=weex.requireModule("modal")
 //              modal.toast({message:p});
