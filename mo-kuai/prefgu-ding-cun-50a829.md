@@ -2,8 +2,6 @@
 
 持久存储，即使app关闭之后也会存在，类似于cookie,android基于sharerefrence，Ios基于NSUserDefaults
 
-
-
 ### API
 
 ```js
@@ -40,7 +38,7 @@ getString(String key)
      saveString()
       {
           var pref=weex.requireModule("pref")
-          pref.set('key',this.text);
+          pref.setString('key',this.text);
           var modal=weex.requireModule("modal")
           modal.toast({message:'存储成功'});
 
