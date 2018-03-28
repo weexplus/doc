@@ -5,6 +5,10 @@
 ## Api
 
 ```
+/**
+*此方法为比较业务的方法，需要结合我的后台程序来使用，你可以自己实现自己的更新检测机制，调用下方的download去下载更新即可
+*param(包含：appid url theme failtoast  showprogress )
+**/
 docheck(param)
 
 download(url)
