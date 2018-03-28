@@ -13,7 +13,7 @@ docheck(param)
 
 /**
 * url下载地址，
-* android 的是apk的下载地址 （例如：http://59.110.169.246/img/app-debug.apk）
+* android 的是apk的下载地址 （例如：http://59.110.169.226/img/app-debug.apk）
 * ios是商店的地址 （例如：itms-apps://itunes.apple.com/us/app/apple-store/id375380948）
 **/
 download(url)
@@ -31,10 +31,11 @@ failtoast:true,
 showprogress:true
 })
 
-updater.download('http://59.110.169.246/img/app-debug.apk')
+//android
+updater.download('http://59.110.169.226/img/app-debug.apk')
 
-
-
+//ios
+updater.download('http://59.110.169.226/img/app-debug.apk')
 ```
 
 
