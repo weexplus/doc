@@ -27,6 +27,8 @@ updater.docheck({
 appid:'1',
 url:'',
 theme:'#808080',
+failtoast:true
+
 
 })
 ```
