@@ -35,7 +35,7 @@ showprogress:true
 updater.download('http://59.110.169.226/img/app-debug.apk')
 
 //ios
-updater.download('http://59.110.169.226/img/app-debug.apk')
+updater.download('itms-apps://itunes.apple.com/us/app/apple-store/id375380948')
 ```
 
 
