@@ -21,7 +21,7 @@ download(url)
 
 ## Demo
 
-```
+```js
 var updater=weex.requireModule('updater')
 updater.docheck({
 appid:'1',
@@ -31,7 +31,7 @@ failtoast:true,
 showprogress:true
 })
 
-
+updater.download('http://59.110.169.246/img/app-debug.apk')
 
 
 
