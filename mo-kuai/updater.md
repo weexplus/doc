@@ -19,5 +19,17 @@ docheck(param)
 download(url)
 ```
 
-Demo
+## Demo
+
+```
+var updater=weex.requireModule('updater')
+updater.docheck({
+appid:'1',
+url:'',
+theme:'#808080',
+
+})
+```
+
+
 
