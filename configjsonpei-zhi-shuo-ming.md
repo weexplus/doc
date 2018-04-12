@@ -6,6 +6,7 @@
 {
   "schema":"",
   "debug":true, 是不是debug模式，是的话，会出现调试的button,进入app是也不会预加载preload的界面
+  "showerror":是否显示错误提示
   "isPortriot":true,首页是竖屏，false未横屏
   "debugIp":"127.0.0.1", 调试用的ip，调试模式下扫码之后会自动保存那个ip,如果没有扫码过，则会使用次ip
 
