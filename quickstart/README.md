@@ -2,8 +2,6 @@
 
 _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工具_
 
-
-
 1. 安装`NodeJs`，已安装的请忽略
 
    最简单的安装方法就是直接安装[官网的安装包](https://nodejs.org/en/download/)，至于其它的使用包管理或者源码安装的方法请自行搜索。
@@ -41,7 +39,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    按照提示完成项目创建。此时在当前目录下就会有一个名为`my_project`的目录，里面就是我们的项目源码。
 
-5. 下载并安装weexplus开发包，一个apk程序，地址  [https://pan.baidu.com/s/1XefNW4gFI9a22r9k6U-rtA](https://pan.baidu.com/s/1XefNW4gFI9a22r9k6U-rtA)
+5. 下载并安装weexplus开发包，一个apk程序，地址 [ https://pan.baidu.com/s/16kJfMuyXX-Y\_yhm5fHt79Q](https://pan.baidu.com/s/16kJfMuyXX-Y_yhm5fHt79Q)
 
 6. 运行创建的项目
 
@@ -53,9 +51,9 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
   npm install
 
   npm run dev
-  
+
   新启一个控制台  weexplus start
-  
+
   此时会弹出浏览器，（必须安装chrome） ,请使用weexplus 开发包，扫描浏览器上的二维码
 ```
 
