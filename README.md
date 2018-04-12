@@ -19,3 +19,17 @@ weexplus是基于weex官方的二次开发版本，weex和react native一样同�
 
 最后附上git地址：[https://github.com/weexplus/boilerplate](https://github.com/weexplus/boilerplate)，期待更多的同学加入我们,详细接入文档，请参考快速开始
 
+
+
+附上几个weexplus做的app:
+
+追剧：[https://pan.baidu.com/s/1p5wTIu2nKJLK52lywh3Q2g](https://pan.baidu.com/s/1p5wTIu2nKJLK52lywh3Q2g)
+
+智慧农业：[https://pan.baidu.com/s/1grI-40wrYRW9m-zTLY\_svQ](https://pan.baidu.com/s/1grI-40wrYRW9m-zTLY_svQ)
+
+
+
+
+
+
+
