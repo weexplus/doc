@@ -30,6 +30,7 @@
   * [oss](mo-kuai/oss.md)
   * [updater\(更新控制器\)](mo-kuai/updater.md)
 * [组件](zu-jian.md)
+  * [官方](guan-fang.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
   * [host\(多页组件\)](zu-jian/hostduo-ye-zu-4ef629.md)
   * [web\(扩展\)](zu-jian/web.md)
@@ -38,4 +39,8 @@
   * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
   * [arc\(扇形组件\)](zu-jian/arcshan-xing-zu-4ef629.md)
   * [embed（扩展）](embed.md)
+* [扩展新功能](kuo-zhan-xin-gong-neng.md)
+  * [android](kuo-zhan-xin-gong-neng/android.md)
+    * 扩展模块
+    * 扩展组件
 
