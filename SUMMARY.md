@@ -41,6 +41,6 @@
   * [embed（扩展）](embed.md)
 * [扩展新功能](kuo-zhan-xin-gong-neng.md)
   * [android](kuo-zhan-xin-gong-neng/android.md)
-    * 扩展模块
+    * [扩展模块](kuo-zhan-xin-gong-neng/android/kuo-zhan-mo-kuai.md)
     * 扩展组件
 
