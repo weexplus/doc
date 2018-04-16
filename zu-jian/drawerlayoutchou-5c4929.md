@@ -7,13 +7,23 @@
 | src | 主页面地址 |
 | slidSrc | 侧滑页面地址 |
 
+
+
+| 方法 | 作用 |
+| :--- | :--- |
+| toggel\(\) | 打开或关闭 |
+
+### 
+
+### 
+
 ### Demo
 
 ```
 <template>
 <drawerlayout
 ref="drawer"
-slid_src="userNav.js"
+slidSrc="userNav.js"
 src="farmWork.js"
 >
 
