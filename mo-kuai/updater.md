@@ -11,12 +11,24 @@
 **/
 docheck(param)
 
+
+
 /**
 * url下载地址，
 * android 的是apk的下载地址 （例如：http://59.110.169.226/img/app-debug.apk）
 * ios是商店的地址 （例如：itms-apps://itunes.apple.com/us/app/apple-store/id375380948）
 **/
 download(url)
+
+
+
+/**
+*此方法为比较业务的方法，需要结合我的后台程序来使用，你可以自己实现自己的更新检测机制，调用下方的hotUpdate去下载更新即可
+*param(包含：appid(app的id) url(检测更新的地址) theme(界面主题色) failtoast(失败后是否提示)  showprogress(是否显示进度) )
+**/
+doCheckJs(param)
+
+
 
 
 /** 回调函数不传，就是静默更新
@@ -33,6 +45,8 @@ hotUpdate(url,start,progress,compelete,exception)
 
 ```js
 var updater=weex.requireModule('updater')
+
+//整包检测
 updater.docheck({
 appid:'1',
 url:'',
@@ -40,6 +54,18 @@ theme:'#808080',
 failtoast:true,
 showprogress:true
 })
+
+
+//热更新检测
+updater.doCheckJs({
+appid:'1',
+url:'',
+theme:'#808080',
+failtoast:true,
+showprogress:true
+})
+
+
 
 //android
 updater.download('http://59.110.169.226/img/app-debug.apk')
