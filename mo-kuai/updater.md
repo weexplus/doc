@@ -66,6 +66,14 @@ showprogress:true
 })
 
 
+updater.hotUpdate('http://xxxxx/app.zip',()=>{},(percent)=>{
+
+},()=>{
+
+},()=>{
+
+})
+
 
 //android
 updater.download('http://59.110.169.226/img/app-debug.apk')
