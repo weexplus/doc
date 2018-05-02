@@ -75,7 +75,7 @@ failtoast:true,
 showprogress:true
 })
 
-//热更新下载 (可以自己实现更新的逻辑)
+//热更新下载 (可以自己实现更新检测的逻辑，然后调用这个)
 updater.hotUpdate('http://xxxxx/app.zip',()=>{},(percent)=>{
 
 },()=>{
@@ -83,7 +83,6 @@ updater.hotUpdate('http://xxxxx/app.zip',()=>{},(percent)=>{
 },()=>{
 
 })
-
 ```
 
 
