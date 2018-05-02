@@ -19,7 +19,7 @@ docheck(param)
 download(url)
 
 
-/**
+/** 回调函数不传，就是静默更新
 *url:zip下载地址，注意：被压缩的文件夹名称得是app
 *start 开始下载
 *progress 下载中，参数:(percent)整型
