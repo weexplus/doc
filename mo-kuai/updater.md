@@ -56,7 +56,17 @@ showprogress:true
 })
 
 
-//热更新检测
+
+//android
+updater.download('http://59.110.169.226/img/app-debug.apk')
+
+//ios
+updater.download('itms-apps://itunes.apple.com/us/app/apple-store/id375380948')
+
+
+
+
+//热更新检测和我们提供的后台配套
 updater.doCheckJs({
 appid:'1',
 url:'',
@@ -65,7 +75,7 @@ failtoast:true,
 showprogress:true
 })
 
-
+//热更新下载 (可以自己实现更新的逻辑)
 updater.hotUpdate('http://xxxxx/app.zip',()=>{},(percent)=>{
 
 },()=>{
@@ -74,12 +84,6 @@ updater.hotUpdate('http://xxxxx/app.zip',()=>{},(percent)=>{
 
 })
 
-
-//android
-updater.download('http://59.110.169.226/img/app-debug.apk')
-
-//ios
-updater.download('itms-apps://itunes.apple.com/us/app/apple-store/id375380948')
 ```
 
 
