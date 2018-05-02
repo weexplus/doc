@@ -17,6 +17,16 @@ docheck(param)
 * ios是商店的地址 （例如：itms-apps://itunes.apple.com/us/app/apple-store/id375380948）
 **/
 download(url)
+
+
+/**
+*url:zip下载地址，注意：被压缩的文件夹名称得是app
+*start 开始下载
+*progress 下载中，参数:(percent)整型
+*compelete 下载完成
+*exception 异常
+**/
+hotUpdate(url,start,progress,compelete,exception)
 ```
 
 ## Demo
