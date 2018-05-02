@@ -6,6 +6,7 @@
 * [更新](geng-xin.md)
 * [调试](diao-shi.md)
 * [根路径\(root:\)](gen-lu-jing.md)
+* [热更新](re-geng-xin.md)
 * [图片使用](tu-pian.md)
 * [config.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [打包](da-bao.md)
@@ -39,8 +40,5 @@
   * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
   * [arc\(扇形组件\)](zu-jian/arcshan-xing-zu-4ef629.md)
   * [embed（扩展）](embed.md)
-* [扩展新功能](kuo-zhan-xin-gong-neng.md)
-  * [android](kuo-zhan-xin-gong-neng/android.md)
-    * [扩展模块](kuo-zhan-xin-gong-neng/android/kuo-zhan-mo-kuai.md)
-    * 扩展组件
+* [热更新](re-geng-xin.md)
 
