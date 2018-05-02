@@ -1,6 +1,6 @@
 # updater
 
-用于更新检测，包含了整包更新和热更新。 我们提供了建议的后台程序，配合doCheck，doCheckJs 直接使用，或者自己实现更新检测然后调用download（下载安装app），hotUpdate（下载zip解压覆盖本地）
+用于更新检测，包含了整包更新和热更新。 我们提供了建议的后台程序，配合doCheck，doCheckJs 直接使用，或者自己实现更新检测然后调用download（下载安装app），hotUpdate（下载zip解压覆盖本地资源文件）
 
 ## Api
 
