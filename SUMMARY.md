@@ -7,6 +7,7 @@
 * [调试](diao-shi.md)
 * [根路径\(root:\)](gen-lu-jing.md)
 * [热更新](re-geng-xin.md)
+  * [配置步骤](re-geng-xin/pei-zhi-bu-zou.md)
 * [图片使用](tu-pian.md)
 * [config.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [打包](da-bao.md)
