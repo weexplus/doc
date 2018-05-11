@@ -53,16 +53,16 @@
     * @param exception status!=200的回调
     */
      postFile(url, param,header,path,start,success,compelete,exception)
-     
-     
-    
-     
+
+
+
+
    /**获取sessionid
     * @param url 地址
    */       
    getSessionId( url)
-   
-   
+
+
    /**清除所有cookie
     * 
    */ 
@@ -84,7 +84,7 @@
     },function(e){
         //success
         self.back=e.res;
-        self.header=r.headers;
+
     },function(e){
       //exception
 
