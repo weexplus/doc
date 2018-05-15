@@ -31,6 +31,7 @@
   * [page\(页面控制器\)](mo-kuai/pageye-mian-kong-zhi-566829.md)
   * [oss](mo-kuai/oss.md)
   * [updater\(更新控制器\)](mo-kuai/updater.md)
+  * location\(定位\)
 * [组件](zu-jian.md)
   * [官方](guan-fang.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
