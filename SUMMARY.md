@@ -33,6 +33,7 @@
   * [updater\(更新控制器\)](mo-kuai/updater.md)
   * location\(定位\)
   * [env\(环境模块\)](mo-kuai/env.md)
+  * [jpush\(极光推送\)](mo-kuai/jpushji-guang-tui-900129.md)
 * [组件](zu-jian.md)
   * [官方](guan-fang.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
