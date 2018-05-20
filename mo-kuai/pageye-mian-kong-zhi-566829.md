@@ -28,6 +28,10 @@ exit()
 
 /**设置启动的主页面 url(相对地址，支持root:写法)
 setMainPage(url)
+
+
+/** url(相对地址，支持root:写法) success 渲染成功之后的回调
+preRender(url,success)
 ```
 
 # Demo
