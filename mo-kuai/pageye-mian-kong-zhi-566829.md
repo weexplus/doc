@@ -30,7 +30,8 @@ exit()
 setMainPage(url)
 
 
-/** url(相对地址，支持root:写法) success 渲染成功之后的回调
+/** url(相对地址，支持root:写法) success 渲染成功之后的回调，如果新页面跳转后有明显的闪烁，可以调用此方法先预加载一下
+                 ，当然跳转的逻辑得放到这个succes的回调函数里去
 preRender(url,success)
 ```
 
