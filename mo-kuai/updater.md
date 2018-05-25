@@ -49,7 +49,7 @@ hotUpdate(url,start,progress,compelete,exception)
 var updater=weex.requireModule('updater')
 
 //整包检测
-updater.docheck({
+updater.doCheck({
 appid:'1',
 url:'',
 theme:'#808080',
