@@ -8,7 +8,7 @@
   * [热更新](re-geng-xin.md)
     * [配置步骤](re-geng-xin/pei-zhi-bu-zou.md)
   * [全量更新](quan-liang-geng-xin.md)
-    * 配置步骤
+    * [配置步骤](quan-liang-geng-xin/pei-zhi-bu-zou.md)
 * [调试](diao-shi.md)
 * [根路径\(root:\)](gen-lu-jing.md)
 * [图片使用](tu-pian.md)
