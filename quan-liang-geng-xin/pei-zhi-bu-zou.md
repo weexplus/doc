@@ -6,7 +6,7 @@
 var updater=weex.requireModule('updater')
 
 //整包检测
-updater.docheck({
+updater.doCheck({
 appid:'1',
 url:'http://xxxx/version.do',(这里记得改成自己的接口地址)
 theme:'#808080',
