@@ -17,5 +17,5 @@ showprogress:true
 
 原理：
 
-android 端读取的app.gradle 里面的
+android 端读取的build.gradle 里面的 versionCode,来跟数据库表version version\_code进行对比，如果比他小，就认为有更新，然后弹
 
