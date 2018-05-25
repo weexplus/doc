@@ -13,8 +13,9 @@ theme:'#808080',
 failtoast:true,
 showprogress:true
 })
-
 ```
 
+原理：
 
+android 端读取的app.gradle 里面的
 
