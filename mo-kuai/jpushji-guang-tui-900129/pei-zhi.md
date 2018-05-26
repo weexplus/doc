@@ -35,7 +35,7 @@
 
                 var t=weex.requireModule('modal')
                 var navigator=weex.requireModule('navigator')
-                //根据param参数实现自己的跳转逻辑
+                //根据param变量实现自己的跳转逻辑
                 navigator.pushParam('root:demo/onNotifyRecive.js',param)
 
 
