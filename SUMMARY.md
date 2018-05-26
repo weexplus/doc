@@ -37,6 +37,7 @@
   * location\(定位\)
   * [env\(环境模块\)](mo-kuai/env.md)
   * [jpush\(极光推送\)](mo-kuai/jpushji-guang-tui-900129.md)
+    * [配置](mo-kuai/jpushji-guang-tui-900129/pei-zhi.md)
 * [组件](zu-jian.md)
   * [官方](guan-fang.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
