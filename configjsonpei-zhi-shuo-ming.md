@@ -14,9 +14,7 @@
                                                   非调试模式才始终加载这个，发包的时候记得把远程http://192.168.199.248:9999/index.js
                                                   改成本地app/index.js
   "notifyEntry":'app/notifyEntry.js' 接收通知之后的处理页面，详情参考 模块->jpush->配置
-  "preload":["root:busi/tab/mainpage.js","root:busi/tab/collection.js"],启动app时预加载的界面，作用是消除闪烁现象，debug=false才会执行
 
-  "splash":"splash1",
   "static":
   {
     "umeng":
