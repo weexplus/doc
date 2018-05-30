@@ -6,6 +6,8 @@
 var pay=weex.requireModule('alipay')
 var signstr=''
 pay.open(signstr,(res)=>{
+
+
 })
 ```
 
