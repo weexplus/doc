@@ -1,11 +1,11 @@
 # 支付宝支付
 
-以模块的形式提供
+以模块的形式提供  （加密串请参考[https://docs.open.alipay.com/204/105465/](https://docs.open.alipay.com/204/105465/)）
 
 ## api
 
 ```
-/**signstr 签名串
+/**signstr 加密串，由服务端提供，具体请参考
 open(sinstr,callback)
 ```
 
