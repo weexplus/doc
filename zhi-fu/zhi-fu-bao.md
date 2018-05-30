@@ -5,6 +5,7 @@
 ## api
 
 ```
+/**signstr 签名串
 open(sinstr,callback)
 ```
 
