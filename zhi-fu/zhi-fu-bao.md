@@ -2,6 +2,14 @@
 
 以模块的形式提供
 
+## api
+
+```
+open(sinstr,callback)
+```
+
+### demo
+
 ```
 var pay=weex.requireModule('alipay')
 var signstr=''
