@@ -13,6 +13,7 @@
 * [根路径\(root:\)](gen-lu-jing.md)
 * [图片使用](tu-pian.md)
 * [config.json配置说明](configjsonpei-zhi-shuo-ming.md)
+* [修改图标启动页](xiu-gai-tu-biao-qi-dong-ye.md)
 * [打包](da-bao.md)
   * [ios](da-bao/ios.md)
   * [android](da-bao/android.md)
@@ -50,5 +51,4 @@
   * [drawerlayout\(抽屉\)](zu-jian/drawerlayoutchou-5c4929.md)
   * [arc\(扇形组件\)](zu-jian/arcshan-xing-zu-4ef629.md)
   * [embed（扩展）](embed.md)
-* [热更新](re-geng-xin.md)
 
