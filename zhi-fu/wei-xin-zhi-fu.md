@@ -31,7 +31,7 @@ sign= "7FFECB600D7157C5AA49810D2D8F28BC2811827B";
 
 ```
 type:回调类型（‘pay’,'share'）
-errCode:错误码(0成功,-1错误,-2用户取消)
+errCode:错误码(0成功,-1错误,-2用户取消)参考：https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_5
 errMsg:错误消息
 transaction:未知
 openId:未知
