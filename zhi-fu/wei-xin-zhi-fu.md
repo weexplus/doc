@@ -9,7 +9,7 @@
 open(param,callback)
 ```
 
-param
+param 说明
 
 ```
 appId = "wxd930ea5d5a258f4f";
