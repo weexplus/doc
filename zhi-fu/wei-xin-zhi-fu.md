@@ -39,5 +39,21 @@ openId:未知
 
 ### demo
 
+```
+var pay=weex.requireModule('alipay')
+var p={}
+p.appId = "wxd930ea5d5a258f4f";
+p.partnerId = "1900000109";
+p.prepayId= "1101000000140415649af9fc314aa427",;
+p.packageValue = "Sign=WXPay";
+p.nonceStr= "1101000000140429eb40476f8896f4c9";
+p.timeStamp= "1398746574";
+p.sign= "7FFECB600D7157C5AA49810D2D8F28BC2811827B";
+pay.open(signstr,(res)=>{
+
+
+})
+```
+
 
 
