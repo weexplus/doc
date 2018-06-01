@@ -5,7 +5,7 @@
 ### api
 
 ```
-/**param()
+/**param参数
 open(param,callback)
 ```
 
