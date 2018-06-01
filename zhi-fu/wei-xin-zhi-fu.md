@@ -5,6 +5,7 @@
 ### api
 
 ```
+/**param()
 open(param,callback)
 ```
 
