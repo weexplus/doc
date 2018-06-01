@@ -33,11 +33,9 @@ sign= "7FFECB600D7157C5AA49810D2D8F28BC2811827B";
 type:回调类型（‘pay’,'share'）
 errCode:错误码
 errMsg:错误消息
-m.put("err",resp.errCode);
-m.put("msg",resp.errStr);
-m.put("transaction",resp.transaction);
-m.put("openId",resp.openId);
-        
+transaction:未知
+openId:未知
+ 
 ```
 
 
