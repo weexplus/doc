@@ -9,7 +9,7 @@
 open(param,callback)
 ```
 
-param 说明
+### param 说明
 
 ```
 appId = "wxd930ea5d5a258f4f";
@@ -25,6 +25,19 @@ nonceStr= "1101000000140429eb40476f8896f4c9";
 timeStamp= "1398746574";
 
 sign= "7FFECB600D7157C5AA49810D2D8F28BC2811827B";
+```
+
+### callback说明
+
+```
+type:回调类型（‘pay’,'share'）
+errCode:错误码
+errMsg:错误消息
+m.put("err",resp.errCode);
+m.put("msg",resp.errStr);
+m.put("transaction",resp.transaction);
+m.put("openId",resp.openId);
+        
 ```
 
 
