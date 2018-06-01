@@ -16,7 +16,7 @@
 * [修改图标启动页](xiu-gai-tu-biao-qi-dong-ye.md)
 * [支付](zhi-fu.md)
   * [支付宝](zhi-fu/zhi-fu-bao.md)
-  * 微信支付
+  * [微信支付](zhi-fu/wei-xin-zhi-fu.md)
 * [打包](da-bao.md)
   * [ios](da-bao/ios.md)
   * [android](da-bao/android.md)
