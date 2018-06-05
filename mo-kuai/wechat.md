@@ -22,6 +22,8 @@ login(param,callback)
 
 ### demo
 
+微信支付
+
 ```js
 var wechat=weex.requireModule('wechat')
 var p={}
@@ -41,6 +43,8 @@ wechat.pay(p,(res)=>{
 })
 ```
 
+微信登录
+
 ```
 var wechat=weex.requireModule('wechat')
 var p={}
@@ -53,8 +57,8 @@ wechat.login(p,(res)=>{
      {
           //success
          var code=res.authCode; //do something
-         
-       
+
+
      }
 })
 ```
