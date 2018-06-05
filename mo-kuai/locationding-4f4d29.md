@@ -12,7 +12,7 @@ start(param,callback)
 
 ### demo
 
-```
+```js
  var location=weex.requireModule('location')
  var modal=weex.requireModule('modal')
 
