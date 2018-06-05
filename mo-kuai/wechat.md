@@ -46,13 +46,15 @@ var wechat=weex.requireModule('wechat')
 var p={}
 p.state = "xxxxx";
 p.scope = "xxxxx";
- 
+
 wechat.login(p,(res)=>{
 
      if(res.errCode==0)
      {
-         var code=res.authCode;
-        //success
+          //success
+         var code=res.authCode; //do something
+         
+       
      }
 })
 ```
