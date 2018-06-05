@@ -3,7 +3,6 @@
 ### api
 
 ```
-
 (请务必在首页调用此方法，初始化微信)
 /**appId
 regist(appId)
