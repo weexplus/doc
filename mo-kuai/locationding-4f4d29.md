@@ -14,8 +14,10 @@ start(param,callback)
 
 ```
  var location=weex.requireModule('location')
- location.start({once:false},(res)=>{
+ var modal=weex.requireModule('modal')
 
+ location.start({once:false},(res)=>{
+modal.alert({message:res})
  })
 ```
 
