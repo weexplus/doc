@@ -13,14 +13,10 @@ start(param,callback)
 ### demo
 
 ```
-var location=weex.requireModule('location')
+ var location=weex.requireModule('location')
  location.start({once:false},(res)=>{
- 
+
  })
-
-
-
-
 ```
 
 
