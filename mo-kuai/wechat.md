@@ -22,8 +22,8 @@ login(param,callback)
 
 ### demo
 
-```
-var pay=weex.requireModule('wechat')
+```js
+var wechat=weex.requireModule('wechat')
 var p={}
 p.appId = "wxd930ea5d5a258f4f";
 p.partnerId = "1900000109";
@@ -32,11 +32,27 @@ p.packageValue = "Sign=WXPay";
 p.nonceStr= "1101000000140429eb40476f8896f4c9";
 p.timeStamp= "1398746574";
 p.sign= "7FFECB600D7157C5AA49810D2D8F28BC2811827B";
-pay.pay(p,(res)=>{
+wechat.pay(p,(res)=>{
 
      if(res.errCode==0)
      {
-        //suucess
+        //success
+     }
+})
+```
+
+```
+var wechat=weex.requireModule('wechat')
+var p={}
+p.state = "xxxxx";
+p.scope = "xxxxx";
+ 
+wechat.login(p,(res)=>{
+
+     if(res.errCode==0)
+     {
+         var code=res.authCode;
+        //success
      }
 })
 ```
