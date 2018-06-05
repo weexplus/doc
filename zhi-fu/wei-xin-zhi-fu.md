@@ -40,7 +40,7 @@ openId:未知
 ### demo
 
 ```
-var pay=weex.requireModule('weixin')
+var pay=weex.requireModule('wechat')
 var p={}
 p.appId = "wxd930ea5d5a258f4f";
 p.partnerId = "1900000109";
