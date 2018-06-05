@@ -6,7 +6,7 @@
 
 ```
 /**param参数
-open(param,callback)
+pay(param,callback)
 ```
 
 ### param 说明
