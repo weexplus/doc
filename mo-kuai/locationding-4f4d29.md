@@ -17,7 +17,7 @@ start(param,callback)
  var modal=weex.requireModule('modal')
 
  location.start({once:false},(res)=>{
-modal.alert({message:res})
+   modal.alert({message:res})
  })
 ```
 
