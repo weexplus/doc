@@ -22,19 +22,13 @@ login(param,callback)
 
 ### demo
 
-
-
 初始化微信模块，请在app的首页进行
 
-```
+```js
 var wechat=weex.requireModule('wechat')
 var appId=""
 wechat.regist(appId)
 ```
-
-
-
-
 
 微信支付
 
@@ -59,7 +53,7 @@ wechat.pay(p,(res)=>{
 
 微信登录
 
-```
+```js
 var wechat=weex.requireModule('wechat')
 var p={}
 p.state = "xxxxx";
