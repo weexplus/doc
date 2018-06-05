@@ -13,6 +13,10 @@ regist(appId)
 pay(param,callback)
 
 
+/**param参数(scope,state)
+
+login(param,callback)
+
 
 
 
