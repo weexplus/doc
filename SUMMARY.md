@@ -38,7 +38,7 @@
   * [page\(页面控制器\)](mo-kuai/pageye-mian-kong-zhi-566829.md)
   * [oss](mo-kuai/oss.md)
   * [updater\(更新控制器\)](mo-kuai/updater.md)
-  * location\(定位\)
+  * [location\(定位\)](mo-kuai/locationding-4f4d29.md)
   * [env\(环境模块\)](mo-kuai/env.md)
   * [jpush\(极光推送\)](mo-kuai/jpushji-guang-tui-900129.md)
     * [配置](mo-kuai/jpushji-guang-tui-900129/pei-zhi.md)
