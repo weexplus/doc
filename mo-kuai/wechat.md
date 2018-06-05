@@ -5,6 +5,10 @@
 ```
 /**param参数(appId,partnerId,prepayId,packageValue,nonceStr,timeStamp,sign)
 pay(param,callback)
+
+
+
+
 ```
 
 
