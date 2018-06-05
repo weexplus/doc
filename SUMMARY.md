@@ -44,6 +44,7 @@
     * [配置](mo-kuai/jpushji-guang-tui-900129/pei-zhi.md)
       * [ios配置](mo-kuai/jpushji-guang-tui-900129/iospei-zhi.md)
       * [android配置](mo-kuai/jpushji-guang-tui-900129/androidpei-zhi.md)
+  * [wechat](mo-kuai/wechat.md)
 * [组件](zu-jian.md)
   * [官方](guan-fang.md)
   * [looper\(轮播器\)](zu-jian/looper.md)
