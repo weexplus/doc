@@ -6,7 +6,15 @@
 
 ### api
 
+```
+/**param参数(appId,partnerId,prepayId,packageValue,nonceStr,timeStamp,sign)
+pay(param,callback)
 
+
+/**param参数(scope,state)
+/**callback(返回参数包含authCode，请拿此code给后台向微信服务器请求用户信息)
+login(param,callback)
+```
 
 
 
