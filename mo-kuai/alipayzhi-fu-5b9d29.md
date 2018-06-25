@@ -1,4 +1,4 @@
-# alipay
+### alipay
 
 有支付和登录2个功能,以模块的形式提供  （加密串请参考[https://docs.open.alipay.com/204/105465/](https://docs.open.alipay.com/204/105465/)）
 
@@ -16,5 +16,11 @@ pay(param,callback)
 login(param,callback)
 ```
 
-demo
+### demo
+
+```
+
+```
+
+
 
