@@ -16,8 +16,10 @@ open(sinstr,callback)
 
 ```
 var pay=weex.requireModule('alipay')
-var signstr=''
-pay.open(signstr,(res)=>{
+var p={}
+p.signstr=signstr
+
+pay.open(p,(res)=>{
 
 
 })
