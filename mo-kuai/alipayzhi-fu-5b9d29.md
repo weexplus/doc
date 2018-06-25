@@ -18,9 +18,22 @@ login(param,callback)
 
 ### demo
 
-```
+支付
 
 ```
+var alipay=weex.requireModule('alipay')
+var p={}
+p.signstr=''
+alipay.pay(p,(res)=>{
+
+     if(res.errCode==0)
+     {
+        //success
+     }
+})
+```
+
+
 
 
 
