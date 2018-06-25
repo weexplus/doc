@@ -12,7 +12,6 @@ pay(param,callback)
 
 
 /**param参数(signstr(加密串请在服务端加密好了传给客户端),iosscheme（ios才需要，用于支付完之后跳回本app）)
-
 /**callback
 login(param,callback)
 ```
