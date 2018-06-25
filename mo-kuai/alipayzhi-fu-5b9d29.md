@@ -27,10 +27,7 @@ p.signstr=''
 p.iosscheme='weexplus'(不知道怎么填的，请百度ios appscheme)
 alipay.pay(p,(res)=>{
 
-     if(res.errCode==0)
-     {
-        //success
-     }
+     
 })
 ```
 
@@ -43,10 +40,7 @@ p.signstr=''
 p.iosscheme='weexplus'(不知道怎么填的，请百度ios appscheme)
 alipay.login(p,(res)=>{
 
-     if(res.errCode==0)
-     {
-        //success
-     }
+     
 })
 ```
 
