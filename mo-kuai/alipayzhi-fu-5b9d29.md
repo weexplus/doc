@@ -36,3 +36,19 @@ alipay.pay(p,(res)=>{
 
 登录
 
+```
+var alipay=weex.requireModule('alipay')
+var p={}
+p.signstr=''
+p.iosscheme='weexplus'(不知道怎么填的，请百度ios appscheme)
+alipay.login(p,(res)=>{
+
+     if(res.errCode==0)
+     {
+        //success
+     }
+})
+```
+
+
+
