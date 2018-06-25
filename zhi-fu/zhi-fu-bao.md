@@ -18,7 +18,6 @@ open(sinstr,callback)
 var pay=weex.requireModule('alipay')
 var p={}
 p.signstr=signstr
-
 pay.open(p,(res)=>{
 
 
