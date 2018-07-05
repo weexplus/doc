@@ -57,7 +57,7 @@ theme:'#808080',
 failtoast:true,
 showprogress:true
 },()=>{
-   //检测到有更新时的回调
+   //检测到没有更新时的回调
 })
 
 
