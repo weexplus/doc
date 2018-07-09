@@ -2,7 +2,7 @@
 
 1.配置ios推送证书，详细请参考极光的档案：传送门[https://docs.jiguang.cn/jpush/client/iOS/ios\_cer\_guide/](https://docs.jiguang.cn/jpush/client/iOS/ios_cer_guide/)
 
-将极光的appkey填到如下位置（需要你配置好证书后才会有appKey）![](/assets/1790357F-CF01-41FA-8F29-30C5D6AD68E8.png)
+2.将极光的appkey填到如下位置（需要你配置好证书后才会有appKey）![](/assets/1790357F-CF01-41FA-8F29-30C5D6AD68E8.png)
 
 如何配置极光的ios推送证书
 
