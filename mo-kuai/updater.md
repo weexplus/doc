@@ -24,6 +24,12 @@ doCheck(param,callback)
 download(url)
 
 
+/**
+*检测是否已经有下载好未安装的apk的，如果有自动弹出提示安装
+**/
+checkDownloadApk()
+
+
 
 /**
 *此方法为比较业务的方法，需要结合我的后台程序来使用，你可以自己实现自己的更新检测机制，调用下方的hotUpdate去下载更新即可
