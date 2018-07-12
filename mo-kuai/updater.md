@@ -9,7 +9,8 @@
 ```
 /**
 *此方法为比较业务的方法，需要结合我的后台程序来使用，你可以自己实现自己的更新检测机制，调用下方的download去下载更新即可
-*param(包含：appid(app的id) url(检测更新的地址) theme(界面主题色) failtoast(失败后是否提示)  showprogress(是否显示进度) installNextOpen（是否在下次打开app的时候才提示安装） )
+*param(包含：appid(app的id) url(检测更新的地址) theme(界面主题色) failtoast(失败后是否提示)  showprogress(是否显示进度) 
+* installNextOpen（是否在下次打开app的时候才提示安装） )
 *callback 检测到没有更新时的回调
 **/
 doCheck(param,callback)
