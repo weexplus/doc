@@ -6,3 +6,5 @@ weex默认采用的分包模式，即一个页面一个vue，这样做的缺点�
 
 在src/config.json中有appAboard字段，采用root:写法指定共有js路径，root:代表src,比如src/index.js，则写成root:index.js,这样在调试的时候加载的是dist/index.js，最终打包后加载的是assets/app/index.js
 
+
+
