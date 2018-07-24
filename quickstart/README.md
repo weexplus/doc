@@ -27,8 +27,7 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
    切换到你的工作目录，执行**\(windows下务必确保使用管理员模式打开的cmd\)**
 
    ```bash
-   weexplus create my_projectt com.app.id appname 
-   (3个参数：1.项目名称 2.appid 3.app名称)
+   weexplus create 
 
    如果网速不好，老是下载失败的同学请直接前往 https://github.com/weexplus/boilerplate，
    下载压缩包格式的，下载完之后解压得到一个
