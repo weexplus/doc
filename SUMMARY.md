@@ -48,4 +48,11 @@
   * [wechat\(微信\)](mo-kuai/wechat.md)
   * [alipay\(支付宝\)](mo-kuai/alipayzhi-fu-5b9d29.md)
 * [组件](zu-jian.md)
+  * [floading](zu-jian/floading.md)
+  * [drawerlayout\(抽屉组件\)](zu-jian/drawerlayoutchou-5c4929.md)
+  * [host](zu-jian/hostduo-ye-zu-4ef629.md)
+  * [image扩展](zu-jian/imagekuo-5c5529.md)
+  * [looper](zu-jian/looper.md)
+  * [web扩展](zu-jian/web.md)
+  
 
