@@ -27,8 +27,9 @@ download(url)
 
 /**
 *检测是否已经有下载好未安装的apk的，如果有自动弹出提示安装
+*callback 不存在apk的时候调用
 **/
-checkDownloadApk()
+checkDownloadApk(callback)
 
 
 
