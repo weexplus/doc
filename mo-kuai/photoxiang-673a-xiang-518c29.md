@@ -37,6 +37,9 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
  * @param callback 回调，返回图片地址
  */
   openCamera( width, height, themeColor,  callback )
+  
+  
+  save(url,callback)
 ```
 
 ## Demo
