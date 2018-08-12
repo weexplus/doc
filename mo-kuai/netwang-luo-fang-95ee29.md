@@ -67,9 +67,9 @@
     * 
    */ 
     removeAllCookies()
-    
+
     /**
-    *
+    *下载文件
     */
     download(url,process,compelete,exception)
 ```
