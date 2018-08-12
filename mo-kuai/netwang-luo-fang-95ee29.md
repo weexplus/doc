@@ -67,6 +67,11 @@
     * 
    */ 
     removeAllCookies()
+    
+    /**
+    *
+    */
+    download(url,process,compelete,exception)
 ```
 
 ### 
