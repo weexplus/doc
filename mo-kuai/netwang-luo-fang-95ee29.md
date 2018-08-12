@@ -70,6 +70,10 @@
 
     /**
     *下载文件
+    *@param url 下载地址
+    *@param process 下载进度回调（current,total,percent））
+    *@param compelete 下载完成回调
+    *@param exception下载失败回调
     */
     download(url,process,compelete,exception)
 ```
