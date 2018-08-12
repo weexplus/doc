@@ -41,7 +41,7 @@ open( width, height , themeColor, titleColor,  cancelColor,  callback)
 /**
  * 
  * @param url 下载地址
- * @param callback 回调函数
+ * @param callback 回调函数（res.success==true表示成功）
  */
   save(url,callback)
 ```
