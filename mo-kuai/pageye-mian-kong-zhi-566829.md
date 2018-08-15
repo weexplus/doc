@@ -34,6 +34,7 @@ setMainPage(url)
                  ，当然跳转的逻辑得放到这个succes的回调函数里去
 preRender(url,success)
 
+/**设置键盘状态
 /**mode adjust_nothing,adjust_pan,adjust_resize
 setKeyboardMode(mode)
 ```
