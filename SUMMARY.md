@@ -47,6 +47,7 @@
       * [android配置](mo-kuai/jpushji-guang-tui-900129/androidpei-zhi.md)
   * [wechat\(微信\)](mo-kuai/wechat.md)
   * [alipay\(支付宝\)](mo-kuai/alipayzhi-fu-5b9d29.md)
+  * [文件（file）](mo-kuai/wen-jian-ff08-file.md)
 * [组件](zu-jian.md)
   * [floading](zu-jian/floading.md)
   * [drawerlayout\(抽屉组件\)](zu-jian/drawerlayoutchou-5c4929.md)
@@ -54,5 +55,4 @@
   * [image扩展](zu-jian/imagekuo-5c5529.md)
   * [looper](zu-jian/looper.md)
   * [web扩展](zu-jian/web.md)
-  
 
