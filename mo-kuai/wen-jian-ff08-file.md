@@ -12,6 +12,12 @@
 unzip(path,callback)
 
 
+/**
+*path 解压路径
+*callback 回调函数
+**/
+ls(path,callback)
+
 
 ```
 
