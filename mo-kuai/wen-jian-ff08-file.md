@@ -22,10 +22,10 @@ ls(path,callback)
 demo
 
 ```
-var file=weex.requireModule('file')
+
 var net =weex.requireModule('net')
 var file =weex.requireModule('file')
-var url='http://59.110.169.246/img/1.zip'
+var url='http://xxxxx/img/xxx.zip'
 net.download(url,(percent)=>{
     this.percent=percent;
 },(e)=>{
