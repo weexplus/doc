@@ -37,6 +37,12 @@ preRender(url,success)
 /**设置键盘状态（只android有效）
 /**mode adjust_nothing,adjust_pan,adjust_resize
 setKeyboardMode(mode)
+
+
+/**
+* 模拟home键被按下，app回到主页（ios会真的退出app）
+**/
+pressHome()
 ```
 
 # Demo
