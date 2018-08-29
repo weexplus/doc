@@ -6,6 +6,13 @@
 | :--- | :--- |
 | index | 当前显示那一页 |
 
+# 事件
+
+| 名称 | 触发时机 |
+| :--- | :--- |
+| load | 子元素加载完毕触发（注意：必须写在第一级子元素上） |
+| show | 子元素显示的时候触发 |
+
 # Demo
 
 ```js
@@ -77,7 +84,7 @@
 
 <script>
 
-   
+
     export default {
         components:{},
         data(){
@@ -85,7 +92,7 @@
              logoUrl: 'http://img1.vued.vanthink.cn/vued08aa73a9ab65dcbd360ec54659ada97c.png',
              target: 'World',
              index:0,
-  
+
            }
         },
         methods: {
