@@ -11,7 +11,6 @@
 | 名称 | 触发时机 |
 | :--- | :--- |
 | load | 子元素加载完毕触发（注意：必须写在第一级子元素上） |
-| show | 子元素显示的时候触发 |
 
 # Demo
 
@@ -21,7 +20,7 @@
 
         <host style="flex: 1"   @change="onchange" :index="index">
             <!--<child style="background-color: red;display: flex">-->
-            <div style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;">
+            <div @load="load" @show="show" style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;">
                 <div style="flex: 1;background-color: #0085ee;justify-content: center;align-items: center">
                     <text style="font-size: 55">页面1</text>
                     <text>目前必须用2层div包裹才能保证填充满</text>
