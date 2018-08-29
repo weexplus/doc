@@ -18,111 +18,129 @@
 
 ```
 <template>
-<drawerlayout
-ref="drawer"
-slidSrc="userNav.js"
-src="farmWork.js"
->
+    <div style="justify-content: center;align-items: center">
+        <div @click="setOpen" style="width: 100;height: 100;background-color: red">
+            <text>打开</text>
+        </div>
+        <div @click="setClose" style="width: 100;height: 100;background-color: red">
+            <text>关闭</text>
+        </div>
 
-</drawerlayout>
+        <drawerlayout
+                style="width: 700;height: 800;background-color: chartreuse"
+                :isOpen="open"
+                :leftWidth="500"
+        >
+
+            <div style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;width: 500">
+              <div style="flex: 1;background-color: #0085ee;justify-content: center;align-items: center">
+                     <text>侧边栏</text>
+                  <text>目前必须用2层div包裹才能保证填充满</text>
+                  <text>第一层的样式必须是position: absolute;left: 0;top: 0;right: 0;bottom: 0;</text>
+                  <text>第二层的样式必须是flex:1</text>
+                  <text>第一层div的宽度必须和leftWidth一致</text>
+              </div>
+            </div>
+            <div style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red">
+                <div style="flex: 1;background-color: #0085ee;justify-content: center;align-items: center">
+                    <text>主界面</text>
+                    <text>目前必须用2层div包裹才能保证填充满</text>
+                    <text>第一层的样式必须是position: absolute;left: 0;top: 0;right: 0;bottom: 0;</text>
+                    <text>第二层的样式必须是flex:1</text>
+                </div>
+            </div>
+        </drawerlayout>
+
+    </div>
 </template>
 
 <style>
-.header {
-width: 750px;
-}
-/*back按钮*/
-.siftL {
-position: absolute;
-left: 0;
-top: 40px;
-width: 80px;
-height: 80px;
-z-index: 1000;
-}
+    .cl {
 
-.icon-navR {
-width: 80px;
-height: 80px;
-z-index: 1000;
-}
+        align-items: center;
 
-.
-.active {
-background-color: blue;
-}
+    }
 
-.item {
-margin-top: 1;
-height: 180;
-align-items: center;
-background-color: #ffffff;
-}
 
-.item:active {
-background-color: #e2e2e2;
-}
-
-.farmImage {
-width: 60px;
-height: 60px;
-margin-bottom: 10px;
-}
-
-.text {
-font-size: 28px;
-color: #7f7f7f;
-}
 </style>
+<style src="./style.css"></style>
 <script>
-var head = require('../component/header.vue');
-var flist = require('../component/flist.vue');
-export default {
-components: {head, flist},
-data(){
-return {
-items: [
-{"id":0,"url": "../img/crop1.png", "name": "玉米"},
-{"id":1,"url": "../img/crop2.png", "name": "马铃薯"},
-{"id":2,"url": "../img/crop3.png", "name": "大豆"},
-{"id":3,"url": "../img/crop4.png", "name": "水稻"},
-{"id":4,"url": "../img/crop5.png", "name": "小麦"},
-{"id":5,"url": "../img/crop6.png", "name": "花生"},
-{"id":6,"url": "../img/crop7.png", "name": "大豆"},
-{"id":7,"url": "../img/crop8.png", "name": "谷子"},
-{"id":8,"url": "../img/crop9.png", "name": "牧草"},
-],
 
-}
-},
-methods: {
+    var head = require('./header.vue')
+    var netx = require('./net.vue')
+    var font = require('./font.vue')
+    var globalEvent = weex.requireModule('globalEvent');
+    globalEvent.addEventListener("onPageInit", function (e) {
 
-crop_detail(item){
-var nav=weex.requireModule('navigator')
-nav.pushParam('cropList.js',item);
 
-},
-refresh: function () {
+    });
 
-},
+    export default {
+        components: {head,netx,font},
+        data () {
+            return {
+                back: "",
+                header: {},
+                open: false
+            }
+        },
+        methods: {
+            setOpen()
+            {
+              this.open=true;
+            },
+            setClose()
+            {
+                this.open=false;
+            },
+            post()
+            {
+                var self = this;
+                self.back = "";
+                const net = weex.requireModule('net');
+                net.post('http://121.40.81.1:9080/edu/getBanners.do', {a: "1", b: "2"}, {}, function () {
+                    //start
+                }, function (e) {
+                    //success
+                    self.back = e.res;
+                    self.header = r.headers;
+                }, function (e) {
+                    //exception
 
-}
-,
-created: function () {
+                }, function () {
+                    //compelete
+                });
 
-var notify=weex.requireModule("notify")
-notify.regist('toggle',()=>{
-this.$refs.drawer.toggle()
-})
 
-var globalEvent = weex.requireModule('globalEvent');
-globalEvent.addEventListener("onPageInit", function(e) {
+            },
+            get()
+            {
 
-notify.sendNative('entry',{})
 
-});
-}
-}
+                var self = this;
+                const net = weex.requireModule('net');
+                self.back = "";
+                net.get('http://121.40.81.1:9080/edu/getBanners.do', {}, {}, function () {
+                    //start
+                }, function (e) {
+                    //success
+                    self.back = e.res;
+                }, function (e) {
+                    //exception
+
+                }, function () {
+                    //compelete
+                });
+
+
+            }
+
+        },
+        created: function () {
+
+
+        }
+    }
 </script>
 ```
 
