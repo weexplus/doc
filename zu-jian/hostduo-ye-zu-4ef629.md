@@ -29,7 +29,7 @@
                     <text>第二层的样式必须是flex:1</text>
                 </div>
             </div>
-            <div style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;">
+            <div  style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;">
                 <div style="flex: 1;background-color: #0085ee;justify-content: center;align-items: center">
                     <text style="font-size: 55">页面2</text>
                     <text>目前必须用2层div包裹才能保证填充满</text>

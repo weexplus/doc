@@ -10,7 +10,13 @@
 | :--- | :--- |
 | toggel\(\) | 打开或关闭 |
 
-### 
+# 事件
+
+| 名称 | 触发时机 |
+| :--- | :--- |
+| load | 子元素加载完毕触发（注意：必须写在第一级子元素上） |
+
+# 
 
 ### 
 
@@ -32,7 +38,7 @@
                 :leftWidth="500"
         >
 
-            <div style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;width: 500">
+            <div @load="load" style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;width: 500">
               <div style="flex: 1;background-color: #0085ee;justify-content: center;align-items: center">
                      <text>侧边栏</text>
                   <text>目前必须用2层div包裹才能保证填充满</text>
