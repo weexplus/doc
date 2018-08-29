@@ -67,8 +67,6 @@
 <style src="./style.css"></style>
 <script>
 
- 
-
     export default {
         components: {},
         data () {
