@@ -67,17 +67,10 @@
 <style src="./style.css"></style>
 <script>
 
-    var head = require('./header.vue')
-    var netx = require('./net.vue')
-    var font = require('./font.vue')
-    var globalEvent = weex.requireModule('globalEvent');
-    globalEvent.addEventListener("onPageInit", function (e) {
-
-
-    });
+ 
 
     export default {
-        components: {head,netx,font},
+        components: {},
         data () {
             return {
                 back: "",
