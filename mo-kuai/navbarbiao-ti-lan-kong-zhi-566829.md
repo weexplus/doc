@@ -9,5 +9,11 @@
 setStatusBarStyle(color)
 ```
 
+## demo
+
+```
+
+```
+
 
 
