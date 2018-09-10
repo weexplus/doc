@@ -66,7 +66,9 @@ dismiss()
 */
 dismissFull(param,animate)
 
-/**开启手势返回
+/**
+*开启手势返回
+**、
 enableBackGesture()
 ```
 
