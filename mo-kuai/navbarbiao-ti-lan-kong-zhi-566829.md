@@ -12,6 +12,7 @@ setStatusBarStyle(color)
 ## demo
 
 ```
+let navbar=weex.requireModule('navbar')
 
 ```
 
