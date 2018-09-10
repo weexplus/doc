@@ -65,6 +65,9 @@ dismiss()
 @param animate 是否使用动画，（android无效）
 */
 dismissFull(param,animate)
+
+/**开启手势返回
+enableBackGesture()
 ```
 
 获取参数
