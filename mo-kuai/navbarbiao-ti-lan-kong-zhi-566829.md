@@ -13,7 +13,7 @@ setStatusBarStyle(color)
 
 ```
 let navbar=weex.requireModule('navbar')
-
+navbar.setStatusBarStyle('white')
 ```
 
 
