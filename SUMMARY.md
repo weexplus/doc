@@ -48,6 +48,7 @@
   * [wechat\(微信\)](mo-kuai/wechat.md)
   * [alipay\(支付宝\)](mo-kuai/alipayzhi-fu-5b9d29.md)
   * [文件（file）](mo-kuai/wen-jian-ff08-file.md)
+  * navbar\(标题栏控制器\)
 * [组件](zu-jian.md)
   * [floading](zu-jian/floading.md)
   * [drawerlayout\(抽屉组件\)](zu-jian/drawerlayoutchou-5c4929.md)
