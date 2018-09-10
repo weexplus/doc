@@ -2,7 +2,9 @@
 
 ### API
 
-
+```
+setStatusBarStyle(color)
+```
 
 
 
