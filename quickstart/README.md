@@ -49,13 +49,13 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
   npm install
 
-想要看native效果：
+ 想要看native效果：
   npm run native
 
   新启一个控制台  weexplus start
 
   此时会弹出浏览器，（必须安装chrome） ,请使用weexplus 开发包，扫描浏览器上的二维码
-  
+
   想要看web版效果：
   npm run web
 ```
