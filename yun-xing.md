@@ -20,7 +20,5 @@
 
 ## web版运行方式
 
-项目目录，执行npm run web
-
-
+项目目录，执行npm run web,即可
 
