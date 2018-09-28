@@ -9,14 +9,15 @@ weexplus是基于weex官方的二次开发版本，weex和react native一样同�
 1. 安装weexplus `npm install weexplus -g`
 2. 创建项目weexplus create my\_projectt com.app.id demo`也可以直接到`[`https://github.com/weexplus/boilerplate`](https://github.com/weexplus/boilerplate)直接下载
 3. 控制台进入项目目录，开启开发模式 `npm run weexplus`
-4.  请下载开发包（[https://pan.baidu.com/s/16kJfMuyXX-Y\_yhm5fHt79Q](https://pan.baidu.com/s/16kJfMuyXX-Y_yhm5fHt79Q)）**直接安装，扫码即可开始开发**，也可以weexplus run ios/android\(usb数据线连上手机\)运行原生项目来看效果
+4. 请下载开发包（[https://pan.baidu.com/s/16kJfMuyXX-Y\_yhm5fHt79Q](https://pan.baidu.com/s/16kJfMuyXX-Y_yhm5fHt79Q)）**直接安装，扫码即可开始开发**，也可以weexplus run ios/android\(usb数据线连上手机\)运行原生项目来看效果
 
 我们的优势：
 
-1. 界面预加载，消除页面转场的白屏现象
-2. 热刷新，你只需要ctrl+s,手机就会自动刷新界面，提高开发效率
-3. 常用组件都有了，具体可以参考左边的目录，最重要的tab框架，和抽屉框架，我们已经有了，所有的组件只要是放出来的都是双端支持的
-4. 自带热更新。
+1. 支持3端，当然可以选择只做web或native,2边单独编译，编译速度有保障
+2. 界面预加载，消除页面转场的白屏现象
+3. 热刷新，你只需要ctrl+s,手机就会自动刷新界面，提高开发效率
+4. 常用组件都有了，具体可以参考左边的目录，最重要的tab框架，和抽屉框架，我们已经有了，所有的组件只要是放出来的都是双端支持的
+5. 自带热更新。
 
 最后附上git地址：[https://github.com/weexplus/boilerplate](https://github.com/weexplus/boilerplate)，期待更多的同学加入我们,详细接入文档，请参考快速开始
 
