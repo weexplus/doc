@@ -6,7 +6,7 @@
 
 2. 找到位于下方的终端选项卡，开启一个，输入npm install，回车
 
-3. 上一步完毕之后，输入npm run weexplus
+3. 上一步完毕之后，输入npm run native
 
 4. 这之后如果看到一下界面证明weex的环境好了，这时候在浏览器上打开http:localhost:9999/index.js有返回内容证明没问题![](/assets/WechatIMG48.png)
 
