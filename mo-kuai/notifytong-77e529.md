@@ -21,7 +21,7 @@ send(key,param)
 sendNative(key,param)
 
 /**
-设置图标上的数字
+设置图标上的通知数量
 */
 setNumber(number)
 ```
