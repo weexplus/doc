@@ -19,6 +19,11 @@ send(key,param)
  发送给原生
 */
 sendNative(key,param)
+
+/**
+设置图标上的数字
+*/
+setNumber(number)
 ```
 
 ### Demo
