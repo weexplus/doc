@@ -43,6 +43,9 @@ setKeyboardMode(mode)
 * 模拟home键被按下，app回到主页（ios会真的退出app）
 **/
 pressHome()
+
+/**获取最顶层页面的url,同步返回
+getTopPage()
 ```
 
 # Demo
