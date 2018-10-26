@@ -47,7 +47,7 @@ getString(String key)
       getString()
       {
           var pref=weex.requireModule("pref")
-          var s= pref.getstring('key');
+          var s= pref.getString('key');
           var modal=weex.requireModule("modal")
           modal.toast({message:'存储成功的值'+s});
       },
