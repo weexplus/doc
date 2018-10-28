@@ -13,7 +13,7 @@
 * [根路径\(root:\)](gen-lu-jing.md)
 * [appBoard](appboard.md)
 * [图片使用](tu-pian.md)
-* [config.json配置说明](configjsonpei-zhi-shuo-ming.md)
+* [weexplus.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [修改图标启动页](xiu-gai-tu-biao-qi-dong-ye.md)
 * [支付](zhi-fu.md)
   * [支付宝](zhi-fu/zhi-fu-bao.md)

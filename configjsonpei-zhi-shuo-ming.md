@@ -1,6 +1,6 @@
 # config.json配置说明
 
-在src下有个config.json,请不要改变它的位置与名称，修改此文件之后必须重新打包才能生效
+在configs下有个weexplus.json,请不要改变它的位置与名称，修改此文件之后必须重新打包才能生效
 
 ```js
 {
