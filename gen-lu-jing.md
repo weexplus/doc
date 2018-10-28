@@ -1,6 +1,6 @@
 # 根路径（root:）
 
-除了相对路径，我们还支持根路径写法，以src 为根路径，src/img/cat.png 可以写成root:img/cat.png
+除了相对路径，我们还支持根路径写法，以dist 为根路径，dist/img/cat.png 可以写成root:img/cat.png
 
 使用场景：
 
