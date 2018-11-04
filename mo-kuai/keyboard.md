@@ -4,7 +4,7 @@
 
 # api
 
-```
+```js
 /**设置键盘状态（只android有效）
 /**mode adjust_nothing,adjust_pan,adjust_resize
 setKeyboardMode(mode)
