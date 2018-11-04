@@ -26,8 +26,7 @@ keyboard.setKeyboardContorl((p)=>{
     let keyboardheight=p.height
 this.show(p.height);
 },(p)=>{
-//          this.toast('hide')
-this.show(0);
+ 
 })
 ```
 
