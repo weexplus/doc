@@ -24,8 +24,6 @@ let keyboard=weex.requireModule('keyboard')
 keyboard.enableAutoContorl(false)
 keyboard.setKeyboardContorl((p)=>{
     let keyboardheight=p.height
-//            this.toast(''+p.height)
-//          this.height=p.height
 this.show(p.height);
 },(p)=>{
 //          this.toast('hide')
