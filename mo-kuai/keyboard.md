@@ -13,8 +13,23 @@ setKeyboardMode(mode)
 /**是否启用自动控制（只ios有效）
 enableAutoContorl(enble)
 
-/**监听键盘弹出收起事件
+/**监听键盘弹出收起事件，事件参数胡返回键盘高度(show({height:}))
 setKeyboardContorl(JSCallback show, JSCallback hide)
+```
+
+### demo
+
+```js
+let keyboard=weex.requireModule('keyboard')
+keyboard.enableAutoContorl(false)
+keyboard.setKeyboardContorl((p)=>{
+//            this.toast(''+p.height)
+//          this.height=p.height
+this.show(p.height);
+},(p)=>{
+//          this.toast('hide')
+this.show(0);
+})
 ```
 
 
