@@ -22,7 +22,7 @@ setKeyboardContorl(JSCallback show, JSCallback hide)
 ```js
 let keyboard=weex.requireModule('keyboard')
 
-//ios下根据回调参数
+//ios下根据回调参数调整页面布局，避免被遮挡
 keyboard.enableAutoContorl(false)
 keyboard.setKeyboardContorl((p)=>{
 //键盘弹出
