@@ -1,4 +1,6 @@
-# keyboard\(键盘控制\)
+# keyboard
+
+键盘控制（仅对ios有效）
 
 
 
