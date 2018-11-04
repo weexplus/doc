@@ -21,11 +21,15 @@ setKeyboardContorl(JSCallback show, JSCallback hide)
 
 ```js
 let keyboard=weex.requireModule('keyboard')
+
+//ios下根据回调参数
 keyboard.enableAutoContorl(false)
 keyboard.setKeyboardContorl((p)=>{
+//键盘弹出
     let keyboardheight=p.height
     this.show(p.height);
 },(p)=>{
+//键盘收起
 
 })
 ```
