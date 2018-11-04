@@ -10,7 +10,8 @@
 setKeyboardMode(mode)
 
 
-
+/**是否启用自动控制
+enableAutoContorl(enble)
 ```
 
 
