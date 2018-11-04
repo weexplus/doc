@@ -34,7 +34,7 @@ keyboard.setKeyboardContorl((p)=>{
 })
 
 
-//android 下请调用此来控制键盘遮挡方式
+//android 下请调用此来控制键盘遮挡方式，参数有3个值adjust_pan，adjust_resize，adjust_nothing，请来回测试
 setKeyboardMode('adjust_pan')
 ```
 
