@@ -13,7 +13,7 @@ setKeyboardMode(mode)
 /**是否启用自动控制（只ios有效）
 enableAutoContorl(enble)
 
-/**
+/**监听键盘弹出收起事件
 setKeyboardContorl(JSCallback show, JSCallback hide)
 ```
 
