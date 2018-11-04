@@ -24,9 +24,9 @@ let keyboard=weex.requireModule('keyboard')
 keyboard.enableAutoContorl(false)
 keyboard.setKeyboardContorl((p)=>{
     let keyboardheight=p.height
-this.show(p.height);
+    this.show(p.height);
 },(p)=>{
- 
+
 })
 ```
 
