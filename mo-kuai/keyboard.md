@@ -32,6 +32,9 @@ keyboard.setKeyboardContorl((p)=>{
 //键盘收起
 
 })
+
+
+//android 下请调用此来控制键盘遮挡方式
 ```
 
 
