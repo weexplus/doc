@@ -11,7 +11,7 @@
     * [配置步骤](quan-liang-geng-xin/pei-zhi-bu-zou.md)
 * [调试](diao-shi.md)
 * [根路径\(root:\)](gen-lu-jing.md)
-* [appBoard](appboard.md)
+* [appBoard（全局变量方法）](appboard.md)
 * [图片使用](tu-pian.md)
 * [weexplus.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [修改图标启动页](xiu-gai-tu-biao-qi-dong-ye.md)
