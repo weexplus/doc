@@ -10,6 +10,7 @@
   * [全量更新](quan-liang-geng-xin.md)
     * [配置步骤](quan-liang-geng-xin/pei-zhi-bu-zou.md)
 * [调试](diao-shi.md)
+* [开发模式与发版模式](kai-fa-mo-shi-he-fa-ban-mo-shi.md)
 * [根路径\(root:\)](gen-lu-jing.md)
 * [appBoard（全局变量方法）](appboard.md)
 * [图片使用](tu-pian.md)
