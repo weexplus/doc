@@ -1,0 +1,7 @@
+{
+   
+    // Plugins list, can contain "-name" for removing default plugins
+    "plugins": ["toggle-chapters"],
+
+     
+}
