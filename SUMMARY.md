@@ -58,4 +58,9 @@
   * [image扩展](zu-jian/imagekuo-5c5529.md)
   * [looper](zu-jian/looper.md)
   * [web扩展](zu-jian/web.md)
+* [入门教程](ru-men-jiao-cheng.md)
+  * 1.搭建环境
+  * 2.入口页
+  * 3.写一个页面
+  * 4.打包
 
