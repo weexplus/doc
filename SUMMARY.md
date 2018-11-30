@@ -62,6 +62,6 @@
   * 1.搭建环境
   * [2.入口页](ru-men-jiao-cheng/2ru-kou-ye.md)
   * [3.写一个页面](ru-men-jiao-cheng/3xie-yi-ge-ye-mian.md)
+  * [4.导航与传参数](ru-men-jiao-cheng/4dao-hang-yu-chuan-can-shu.md)
   * 4.打包
-  * 4.导航与传参数
 
