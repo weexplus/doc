@@ -6,7 +6,7 @@
 
 ## native 运行方式
 
-首先请下载开发包，一个apk,[https://pan.baidu.com/s/16kJfMuyXX-Y\_yhm5fHt79Q](https://pan.baidu.com/s/16kJfMuyXX-Y_yhm5fHt79Q)，或者android studiod打开:项目名称/platforms/android/项目名称，自己编译一个apk，如果你懂android的话，之后安装好开发包
+首先请下载开发包，一个apk,[https://pan.baidu.com/s/16kJfMuyXX-Y\_yhm5fHt79Q](https://pan.baidu.com/s/16kJfMuyXX-Y_yhm5fHt79Q)，或者android studiod打开:**项目名称/platforms/android/项目名称**，自己编译一个apk，如果你懂android的话，之后安装好开发包
 
 **确保机器安装了chrome**
 
