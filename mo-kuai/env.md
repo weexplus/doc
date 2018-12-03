@@ -17,6 +17,10 @@ versionName()
 
 //读取src/config.json中的jsVersion值
 jsVersionCode()
+
+
+//是否是刘海屏，同步返回（true/false）
+isFringeScreen()
 ```
 
 ### demo {#demo}
@@ -29,6 +33,8 @@ var nativeVersionCode=env.versionCode();
 var nativeVersionName=env.versionName();
 
 var jsersionCode=env.jsVersionCode();
+
+var isFringe= isFringeScreen();
 ```
 
 
