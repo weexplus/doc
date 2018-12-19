@@ -1,6 +1,6 @@
 # font
 
-添加新字体组件，请将字体丢在src/font文件下，在运行npm run weexplus 之后，会自动同步到dist/font下，路径支持本地也支持远程
+添加新字体组件，请将字体丢在src/font文件下，在运行weexplus start 之后，会自动同步到dist/font下，路径支持本地也支持远程
 
 ### **Api**
 

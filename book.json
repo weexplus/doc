@@ -1,5 +1,18 @@
 {
-   
-    
-     
+  "title": "weexplus 中文指南",
+  "description": "weexplus 官方文档",
+  "language": "zh",
+  "plugins": [
+    "prism",
+    "-highlight",
+    "splitter"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "weexplus-handbook"
+    },
+    "github": {
+      "url": "https://github.com/weexplus/doc"
+    }
+  }
 }
