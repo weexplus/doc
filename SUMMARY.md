@@ -39,6 +39,7 @@
   * [font\(添加新字体\)](mo-kuai/font.md)
   * [page\(页面控制器\)](mo-kuai/pageye-mian-kong-zhi-566829.md)
   * [oss](mo-kuai/oss.md)
+  * [device\(设备访问（打电话）\)](mo-kuai/device.md)
   * [updater\(更新控制器\)](mo-kuai/updater.md)
   * [location\(定位\)](mo-kuai/locationding-4f4d29.md)
   * [env\(环境模块\)](mo-kuai/env.md)
