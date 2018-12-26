@@ -5,7 +5,9 @@
   "plugins": [
     "prism",
     "-highlight",
-    "splitter"
+    "splitter",
+    "expandable-chapters-small",
+    "copy-code-button"
   ],
   "pluginsConfig": {
     "disqus": {
