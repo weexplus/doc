@@ -44,7 +44,7 @@ backFull(param,animate)
 /**
 打开一个页面，动画是从下往上弹出来
 */
-present()
+present(url)
 
 /**
 打开一个页面，动画是从下往上弹出来

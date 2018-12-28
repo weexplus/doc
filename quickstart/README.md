@@ -58,7 +58,9 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
   想要看web版效果：
 
-  npm run web
+ 1.weexplus start
+
+ 2.npm run web
 ```
 
 
