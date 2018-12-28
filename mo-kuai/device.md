@@ -18,6 +18,10 @@ mac()
 //打电话
 tel(phone)
 
+
+//开启浏览器打开一个地址
+openUrl(phone)
+
 ```
 
 ### demo {#demo}
@@ -29,8 +33,9 @@ var deviceId=device.deviceId();
 
 var mac=device.mac();
 
-env.tel('18088888888');
+device.tel('18088888888');
 
+device.openUrl('https://wwww.baidu.com');
 
 ```
 
