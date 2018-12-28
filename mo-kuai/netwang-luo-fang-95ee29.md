@@ -95,10 +95,10 @@
         self.back=e.res;
 
     },function(e){
-      //exception
+      //compelete
 
     },function(){
-        //compelete
+        //exception
     });
 
 
@@ -121,10 +121,10 @@ get()
         self.back=e.res;
         st.setString('sessionId',e.res.sessionid);
     },function(e){
-        //exception
+        //compelete
 
     },function(){
-        //compelete
+        //exception
     });
 },
 
