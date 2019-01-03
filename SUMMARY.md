@@ -52,6 +52,7 @@
   * [文件（file）](mo-kuai/wen-jian-ff08-file.md)
   * [navbar\(标题栏控制器\)](mo-kuai/navbarbiao-ti-lan-kong-zhi-566829.md)
   * [keyboard（键盘控制器）](mo-kuai/keyboard.md)
+  * [zoomImage（图片查看器）](mo-kuai/zoomImage.md)
 * [组件](zu-jian.md)
   * [floading](zu-jian/floading.md)
   * [drawerlayout\(抽屉组件\)](zu-jian/drawerlayoutchou-5c4929.md)
