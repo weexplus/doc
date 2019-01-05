@@ -25,5 +25,6 @@ ary.push('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=15
 ary.push('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546535255449&di=8a21adb89f3a4eb8faf5a9bb3557f260&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fd1a20cf431adcbef1da6b62ba7af2edda3cc9f09.jpg')
 let p={}
 p.index=0
+p.list=ary
 zm.show(p)
 ```
