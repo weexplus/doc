@@ -10,9 +10,8 @@
   "isPortriot":true,首页是竖屏，false未横屏
   "debugIp":"127.0.0.1", 调试用的ip，调试模式下扫码之后会自动保存那个ip,如果没有扫码过，则会使用次ip
 
-  "entry":"http://192.168.199.248:9999/index.js",入口页面地址，调试模式下会优先加载扫描之后保存的地址，如果没有才加载这个，
-                                                  非调试模式才始终加载这个，发包的时候记得把远程http://192.168.199.248:9999/index.js
-                                                  改成本地app/index.js
+  "releaseEntry":"app/entry.js",debug=false时加载的入口页面地址，
+  "debugEntry":"http://192.168.199.248:9999/index.js",debug=true 入口页面地址，调试模式下会优先加载扫描之后保存的地址，如果没有才加载这个，
   "notifyEntry":'app/notifyEntry.js' 接收通知之后的处理页面，详情参考 模块->jpush->配置
 
   "static":
