@@ -43,13 +43,13 @@ doCheckJs(param)
 
 
 /** 回调函数不传，就是静默更新
-*url:zip下载地址，注意：被压缩的文件夹名称得是app
+*param: (url:zip下载地址，注意：被压缩的文件夹名称必须是app；version:新版)
 *start 开始下载
 *progress 下载中，参数:(percent)整型
 *compelete 下载完成
 *exception 异常
 **/
-hotUpdate(url,start,progress,compelete,exception)
+hotUpdate(param,start,progress,compelete,exception)
 ```
 
 ## Demo

@@ -4,7 +4,7 @@
 
 | 属性 | 作用 |
 | :--- | :--- |
-| index | 当前显示那一页 |
+| page | 当前显示那一页 |
 
 # 事件
 
@@ -19,7 +19,7 @@
 <template>
     <div style="flex: 1;background-color: #ffffff">
 
-        <host style="flex: 1"   @change="onchange" :index="index">
+        <host style="flex: 1"   @change="onchange" :page="index">
             <!--<child style="background-color: red;display: flex">-->
             <div @load="load" @show="show" style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: red;">
                 <div style="flex: 1;background-color: #0085ee;justify-content: center;align-items: center">
