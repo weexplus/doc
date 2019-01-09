@@ -1,6 +1,7 @@
 # record
 
 录音组件
+首次使用请先执行：weexplus plugin add record
 
 ### API
 
