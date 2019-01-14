@@ -6,6 +6,7 @@
 
 ## native 运行方式
 
+**首次运行前 请先执行 npm install，将相关依赖安装**
 首先请下载开发包，一个apk,[https://pan.baidu.com/s/1jBSCXvNBWLahKNo97iwhVA](https://pan.baidu.com/s/1jBSCXvNBWLahKNo97iwhVA)，或者android studiod打开:**项目名称/platforms/android/项目名称**，自己编译一个apk，如果你懂android的话，之后安装好开发包
 
 **确保机器安装了chrome**
