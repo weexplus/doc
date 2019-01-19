@@ -1,11 +1,21 @@
 # weex-amap
 
 首次使用请执行: ```weexplus plugin add amap```
+
+
 <img width="320" src="https://img.alicdn.com/tps/TB19sYlPFXXXXaRaXXXXXXXXXXX-600-450.png" />
 
 
 一款高德地图weex插件，当前版本支持定位，缩放等地图常用操作。    
 请配合[高德地图开发文档](http://lbs.amap.com/api/android-sdk/summary/)使用该插件    
+
+申请完apiKey之后，请在按如下方式初始化
+```javascript
+ created(){
+       let amap=weex.requireModule('amap')
+                     amap.init('1edf8a80f0e423233c0b2db26398238b')
+        }
+```
 
 ### 快速开始
 
