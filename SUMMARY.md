@@ -57,6 +57,7 @@
 * [组件](zu-jian.md)
   * [floading](zu-jian/floading.md)
   * [weex-amap(高德地图)](zu-jian/amap.md)
+  * [player(视频播放器)](zu-jian/zvideo.md)
   * [drawerlayout\(抽屉组件\)](zu-jian/drawerlayoutchou-5c4929.md)
   * [host](zu-jian/hostduo-ye-zu-4ef629.md)
   * [image扩展](zu-jian/imagekuo-5c5529.md)
