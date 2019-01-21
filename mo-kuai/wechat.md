@@ -1,5 +1,7 @@
 # wechat\(微信\)
 
+**首次使用请执行weexplus plugin add wechat**
+
 有支付和登录2个功能，请务必在首页调用regist方法，初始化微信
 
 ### api
