@@ -62,7 +62,7 @@
                 nim.regist({appKey:你的云信appkey})
                 nim.login({account:accid,token:注册云信id后返回的token},(res)=>{
                     if(res.err==0){
-                        nim.openP2P({account:目标用户的accid})
+                        nim.openP2P({account:目标用户的accid, navBarBgColor:'#000000',theme:'white'})
                     }else{
                         this.toast('云信登录失败！'+res.err)
                     }
@@ -88,5 +88,7 @@ login({account:注册的云信id（accid), token:云信token})
 recent((items)=>{
  //返回最近联系人列表
 })
+
+openP2P({account:目标用户的accid,navBarBgColor:标题栏背景颜色,theme:标题栏文字颜色('white','black'可选)})
 ```
   
