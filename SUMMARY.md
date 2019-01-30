@@ -54,6 +54,7 @@
   * [keyboard（键盘控制器）](mo-kuai/keyboard.md)
   * [zoomImage（图片查看器）](mo-kuai/zoomImage.md)
   * [record（录音）](mo-kuai/record.md)
+  * [nim（云信）](mo-kuai/nim.md)
   * [timepicker（时间选择器（支持年月日时分秒一起选））](mo-kuai/timepicker.md)
 * [组件](zu-jian.md)
   * [floading](zu-jian/floading.md)
