@@ -56,6 +56,7 @@
   * [record（录音）](mo-kuai/record.md)
   * [nim（云信）](mo-kuai/nim.md)
   * [timepicker（时间选择器（支持年月日时分秒一起选））](mo-kuai/timepicker.md)
+  * [umanalyse（友盟统计）](mo-kuai/umanalyse.md)
 * [组件](zu-jian.md)
   * [floading](zu-jian/floading.md)
   * [weex-amap(高德地图)](zu-jian/amap.md)
