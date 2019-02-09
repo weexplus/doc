@@ -1,5 +1,9 @@
 #分享
+**首次使用请执行weexplus plugin add umshare**
+
 该分享为友盟分享，包含微信，qq，微博
+
+
 
 配置步骤
 1.请先在友盟申请appkey
