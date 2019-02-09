@@ -1,16 +1,12 @@
 # 入口页设置
 
+请将src/native/entry.vue中的root:index.js 换成你自己的首页，（有关root:写参考文档）
+如下图
 
-configs/weexplus.json  debugEntery（debug=true）和releaseEntery debug=true）字段
+ ![](/assets/11.png)
+ 
+ 这样在debug=false（正式包，记得改完要重新打包）之后就能正确跳转了。
 
+ **但是在debug=true的时候，不会按这个地址跳转，debug=true的时候，会优先加载上次扫码之后保存的地址，如果没有则会加载debugEntry指定的地址，如果是模拟器使用，则直接改debugEntry地址就行了（因为模拟器没法扫码）**
 
-地址可以是网络地址，也可以是本地地址
-
-### 加载顺序：
-
-在debug=true的状态下，app启动会优先加载上次扫码的地址，如果没有才会加载debugEntery指定的地址
-
-在debug=false的状态下，app启动只会加载releaseEntery指定的地址
-
-**重点说明：releaseEntery指定的页面不是真正的首页，这个页面只能用来写跳转逻辑的过渡页面，如果不写跳转逻辑，在debug=false的情况下，会发现卡在启动页。这么设计是为了解决首屏加载白屏的现象**
 

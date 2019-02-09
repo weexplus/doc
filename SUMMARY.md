@@ -19,6 +19,7 @@
 * [支付](zhi-fu.md)
   * [支付宝](zhi-fu/zhi-fu-bao.md)
   * [微信支付](zhi-fu/wei-xin-zhi-fu.md)
+* [分享](share/index.md)
 * [打包](da-bao.md)
   * [ios](da-bao/ios.md)
   * [android](da-bao/android.md)
