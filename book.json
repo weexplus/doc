@@ -7,14 +7,15 @@
     "-highlight",
     "splitter",
     "expandable-chapters-small",
-    "copy-code-button"
+    "copy-code-button",
+    "github"
   ],
   "pluginsConfig": {
     "disqus": {
       "shortName": "weexplus-handbook"
     },
     "github": {
-      "url": "https://github.com/weexplus/doc"
+      "url": "https://github.com/weexplus/boilerplate"
     }
   }
 }
