@@ -8,7 +8,8 @@
     "splitter",
     "expandable-chapters-small",
     "copy-code-button",
-    "github"
+    "github",
+    "baidu"
   ],
   "pluginsConfig": {
     "disqus": {
@@ -16,6 +17,9 @@
     },
     "github": {
       "url": "https://github.com/weexplus/boilerplate"
+    },
+    "baidu": {
+      "token": "82a73d59d3b11433bf44c49f98d57844"
     }
   }
 }
