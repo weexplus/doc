@@ -73,6 +73,7 @@
   * [weex-amap(高德地图)](zu-jian/amap.md)
   * [player(视频播放器)](zu-jian/zvideo.md)
   * [nim（云信）](mo-kuai/nim.md)
+  * [shot\(截图\)](plugin/shot.md)
   * [umanalyse（友盟统计）](mo-kuai/umanalyse.md)
   * [timepicker（时间选择器（支持年月日时分秒一起选））](mo-kuai/timepicker.md)
   * [zoomImage（图片查看器）](mo-kuai/zoomImage.md)
