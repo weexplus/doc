@@ -68,6 +68,8 @@
   * [looper](zu-jian/looper.md)
   * [web扩展](zu-jian/web.md)
 * [插件化](plugin/index.md)
+* * [分享](share/index.md)
+  * [player(视频播放器)](zu-jian/zvideo.md)
   * [wechat\(微信\)](mo-kuai/wechat.md)
   * [alipay\(支付宝\)](mo-kuai/alipayzhi-fu-5b9d29.md)
   * [weex-amap(高德地图)](zu-jian/amap.md)

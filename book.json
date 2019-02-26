@@ -9,7 +9,8 @@
     "expandable-chapters-small",
     "copy-code-button",
     "github",
-    "baidu"
+    "baidu",
+    "ad"
   ],
   "pluginsConfig": {
     "disqus": {
@@ -20,6 +21,10 @@
     },
     "baidu": {
       "token": "82a73d59d3b11433bf44c49f98d57844"
+    },
+    "ad": {
+      "contentTop": "<div>Ads at the top of the page</div>",
+      "contentBottom": "&lt;script&gt;var _hmt = _hmt || [];(function() {alert('ss');var hm = document.createElement(&quot;script&quot;);hm.src = &quot;https://hm.baidu.com/hm.js?82a73d59d3b11433bf44c49f98d57844&quot;; var s = document.getElementsByTagName(&quot;script&quot;)[0]; s.parentNode.insertBefore(hm, s);})();&lt;/script&gt;"
     }
   }
 }
