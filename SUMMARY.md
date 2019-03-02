@@ -80,6 +80,7 @@
   * [timepicker（时间选择器（支持年月日时分秒一起选））](mo-kuai/timepicker.md)
   * [zoomImage（图片查看器）](mo-kuai/zoomImage.md)
   * [record（录音）](mo-kuai/record.md)
+  * [qr（二维码组件）](plugin/qr.md)
   * [jpush\(极光推送\)](mo-kuai/jpushji-guang-tui-900129.md)
       * [配置](mo-kuai/jpushji-guang-tui-900129/pei-zhi.md)
         * [ios配置](mo-kuai/jpushji-guang-tui-900129/iospei-zhi.md)
