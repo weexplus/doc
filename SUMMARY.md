@@ -14,6 +14,7 @@
 * [根路径\(root:\)](gen-lu-jing.md)
 * [appBoard（全局变量方法）](appboard.md)
 * [图片使用](tu-pian.md)
+* [页面事件](pageevent.md)
 * [weexplus.json配置说明](configjsonpei-zhi-shuo-ming.md)
 * [修改图标启动页](xiu-gai-tu-biao-qi-dong-ye.md)
 * [支付](zhi-fu.md)
