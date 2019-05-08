@@ -46,6 +46,10 @@ pressHome()
 
 /**获取最顶层页面的url,同步返回
 getTopPage()
+
+
+/**获取状态栏高度
+statusBarHeight()
 ```
 
 # Demo

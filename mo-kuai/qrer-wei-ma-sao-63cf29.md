@@ -11,6 +11,14 @@
   * @param callback 回调函数
   */
 open( param,  callback)
+
+
+/**
+  * 生成二维码
+  * @param param  （str 要生成的字符串，size 图片大小) 
+  * @param callback 回调函数
+  */
+makeQr(param,callback)
 ```
 
 ### Demo
