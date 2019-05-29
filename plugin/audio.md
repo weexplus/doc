@@ -4,10 +4,13 @@
 
 ```
 /**
+/*param(url:''，播放地址支持root,autoplay:(true/false）自动播放)
+setUrl(param)
+
+/**
 播放
-url（支持root:）
 **/
-play(url)
+play()
 
  /**
 暂停
