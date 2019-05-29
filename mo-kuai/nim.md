@@ -5,10 +5,10 @@
    根目录下依次执行
    
    ```
-   weexplus plugin add NIMKit
+   weexplus plugin add https://github.com/farwolf2010/NIMKit
    ```
    ```
-    weexplus plugin add nim
+    weexplus plugin add https://github.com/farwolf2010/nim
    ```
    
 ##2.配置和使用 

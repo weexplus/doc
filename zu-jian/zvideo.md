@@ -1,5 +1,5 @@
 #player
-首次使用```weexplus plugin add zvideo```
+首次使用```weexplus plugin add https://github.com/farwolf2010/zvideo```
 
 视频播放器（支持多种格式，支持全屏,支持手势调节音量进度亮度）
 

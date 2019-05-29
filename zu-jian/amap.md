@@ -4,7 +4,7 @@
 
 
 ## 首次使用请执行:
- ```weexplus plugin add amap```
+ ```weexplus plugin add https://github.com/farwolf2010/amap```
 申请完apiKey之后，请在按如下方式初始化
 ```
      <weex-amap style="flex: 1;background-color: red" :sdkKey="{ios:'05df62dbb56a7257048679f5618cb63d','android':'1edf8a80f0e423233c0b2db26398238b'}" :center="point.position" >

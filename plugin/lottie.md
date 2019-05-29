@@ -1,5 +1,5 @@
 #lottie
-首次使用```weexplus plugin add lottie ```
+首次使用```weexplus plugin add https://github.com/farwolf2010/lottie ```
 
 #demo
 ```

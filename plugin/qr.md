@@ -1,5 +1,5 @@
 # qr\(二维码\)
-**首次使用请执行weexplus plugin add qr**
+**首次使用请执行weexplus plugin add https://github.com/farwolf2010/qr**
 
 一个相机组件，只用来识别二维码，条形码，和module下的qr不一样，这个方便自定义扫描的界面，更为灵活
 

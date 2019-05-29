@@ -1,5 +1,5 @@
 #audio
-首次使用```weexplus plugin add audio ```
+首次使用```weexplus plugin add https://github.com/farwolf2010/audio ```
 ### api
 
 ```

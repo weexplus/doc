@@ -1,5 +1,5 @@
 #seekbar
-首次使用请先weexplus plugin add seekbar
+首次使用请先weexplus plugin add https://github.com/farwolf2010/seekbar
 进度条，可以拖拽，因为weex对手势支持的不好，特此搬了一个原生的过来
 
 ###属性

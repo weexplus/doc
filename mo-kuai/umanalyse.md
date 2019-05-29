@@ -1,6 +1,6 @@
 # umanalyse\(友盟统计\)
 
-**首次使用请执行weexplus plugin add umanalyse**
+**首次使用请执行weexplus plugin add https://github.com/farwolf2010/umanalyse**
 
 有支付和登录2个功能，请务必在首页调用regist方法，初始化微信
 
