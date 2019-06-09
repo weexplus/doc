@@ -5,7 +5,10 @@
 
 ## 首次使用请执行:
  ```weexplus plugin add https://github.com/farwolf2010/amap```
+
+[https://lbs.amap.com/faq/top/hot-questions/249](申请key的地址)
 申请完apiKey之后，请在按如下方式初始化
+
 ```
      <weex-amap style="flex: 1;background-color: red" :sdkKey="{ios:'05df62dbb56a7257048679f5618cb63d','android':'1edf8a80f0e423233c0b2db26398238b'}" :center="point.position" >
         </weex-amap>

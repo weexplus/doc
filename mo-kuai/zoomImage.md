@@ -2,7 +2,7 @@
 
 放大查看图片
 以插件形式提供
-使用前请先 weexplus plugin add zoomImage
+使用前请先 weexplus plugin add https://github.com/farwolf2010/zoomImage
 
 ### api
 
