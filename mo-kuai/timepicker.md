@@ -1,5 +1,5 @@
 # timepicker
-**首次使用请执行weexplus plugin add timepicker,然后重新打包才生效**
+**首次使用请执行weexplus plugin add https://github.com/farwolf2010/timepicker,然后重新打包才生效**
 
 时间选择器，支持年月日时分一起选
 
