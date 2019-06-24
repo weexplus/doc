@@ -1,5 +1,5 @@
 #shot
-**首次使用请执行```weexplus plugin add shot```**
+**首次使用请执行```weexplus plugin add https://github.com/farwolf2010/shot```**
 
 截图功能，传入ref，即可得到组件的截图
 ##api

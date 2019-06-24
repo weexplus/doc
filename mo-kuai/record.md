@@ -1,7 +1,7 @@
 # record
 
 录音组件
-首次使用请先执行：weexplus plugin add record
+首次使用请先执行：weexplus plugin add https://github.com/farwolf2010/record
 
 ### API
 

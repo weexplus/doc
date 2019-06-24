@@ -1,6 +1,6 @@
 # jpush
 
-**首次使用请执行weexplus plugin add jpush**
+**首次使用请执行weexplus plugin add https://github.com/farwolf2010/jpush**
 
 极光推送
 
