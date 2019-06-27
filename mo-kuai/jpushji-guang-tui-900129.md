@@ -11,7 +11,7 @@
 getJPushId()
 ```
 ```
-/**注册极光（param:appkey,channel）
+/**注册极光（param:{appkey:'注册极光后获得',channel:'渠道号自己随便填'}）
 regist(param,callback)
 ```
 
