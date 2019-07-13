@@ -84,6 +84,7 @@
   * [qr（二维码组件）](plugin/qr.md)
   * [lottie(lottie动画组件)](plugin/lottie.md)
   * [seekbar(进度条)](plugin/seekbar.md)
+  * [office(word,excel,ppt,pdf展示器)](https://raw.githubusercontent.com/farwolf2010/office/master/readme.md)
   * [jpush\(极光推送\)](mo-kuai/jpushji-guang-tui-900129.md)
       * [配置](mo-kuai/jpushji-guang-tui-900129/pei-zhi.md)
         * [ios配置](mo-kuai/jpushji-guang-tui-900129/iospei-zhi.md)
