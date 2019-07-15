@@ -89,7 +89,7 @@ showprogress:true
 })
 
 //热更新下载 (可以自己实现更新检测的逻辑，然后调用这个)
-updater.hotUpdate('http://xxxxx/app.zip',()=>{},(percent)=>{
+updater.hotUpdate({urL:'http://xxxxx/app.zip',version:'当前jsversion的版本',mode:'0：静默更新，只下载存储，下次启动app的时候才覆盖本地；2:'弹出选择框提示更新，点确定立即生效''},()=>{},(percent)=>{
 
 },()=>{
 
