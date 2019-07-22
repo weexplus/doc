@@ -97,7 +97,7 @@ setOnError(callback)
         methods: {
             play(){
                 let audio=weex.requireModule('audio')
-                audio.play('http://59.110.169.246/img/1.mp3')
+                audio.setUrl({url:'http://59.110.169.246/img/1.mp3',autoPlay:true})
             },
             pause(){
                 let audio=weex.requireModule('audio')
