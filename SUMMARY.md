@@ -70,6 +70,7 @@
   * [web扩展](zu-jian/web.md)
 * [插件化](plugin/index.md)
   * [分享(umshare)](share/index.md)
+  * [系统分享(sysShare)](plugin/sysShare.md)
   * [player(视频播放器)](zu-jian/zvideo.md)
   * [audio(音频播放)](plugin/audio.md)
   * [wechat\(微信\)](mo-kuai/wechat.md)
