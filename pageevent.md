@@ -9,6 +9,10 @@ onPageInit(param)
 //android 页面显示的时候触发
 onResume
 
+
+//android 页面销毁时调用
+onDestory
+
 //ios 页面开始显示的时候触发
 viewWillAppear
 
@@ -26,6 +30,9 @@ method:{
 	onResume(){
 	
 	}
+	onDestoy(){
+    	
+    }
 	viewWillAppear(){
 	
 	}
