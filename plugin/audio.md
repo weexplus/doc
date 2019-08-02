@@ -30,9 +30,9 @@ msec（毫秒数）
 seek(msec)
 
 /**
-是否正在播放，同步返回true,false
+是否正在播放，callback=({isPlaying})=>{}
 **/
-isPlay()
+isPlay(callback)
 
 /**
 调整音量
