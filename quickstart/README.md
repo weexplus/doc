@@ -31,8 +31,8 @@ _Windows系统的用户建议使用_`Cmder`_或者_`git bash`_作为命令行工
 
    如果网速不好，老是下载失败的同学请直接前往 https://github.com/weexplus/boilerplate，
    下载压缩包格式的，下载完之后解压得到一个
-   boilerplate-master 文件夹，cd到跟boilerplate-master平级的目录，
-   运行weexplus rename project_name com.demo.id appname 
+   boilerplate-master 文件夹，cd 进入boilerplate-master平级的目录，
+   运行weexplus rename
    即可更改名称
    ```
 
