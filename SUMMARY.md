@@ -86,7 +86,7 @@
   * [lottie(lottie动画组件)](plugin/lottie.md)
   * [seekbar(进度条)](plugin/seekbar.md)
   * [photoplus(相机相册高级版)](plugin/seekbar.md)
-  * [office(word,excel,ppt,pdf展示器)](https://github.com/farwolf2010/office/blob/master/readme.md)
+  * [office(word,excel,ppt,pdf展示器)](plugin/office.md)
   * [jpush\(极光推送\)](mo-kuai/jpushji-guang-tui-900129.md)
       * [配置](mo-kuai/jpushji-guang-tui-900129/pei-zhi.md)
         * [ios配置](mo-kuai/jpushji-guang-tui-900129/iospei-zhi.md)
