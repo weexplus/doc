@@ -8,7 +8,7 @@
    weexplus plugin add https://github.com/farwolf2010/NIMKit
    ```
    ```
-    weexplus plugin add https://github.com/farwolf2010/nim
+    weexplus plugin add https://github.com/farwolf2010/hik
    ```
    
 ##2.配置和使用 
