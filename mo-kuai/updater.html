@@ -1,0 +1,1681 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>updater(更新控制器) · weexplus 中文指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ad/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="locationding-4f4d29.html" />
+    
+    
+    <link rel="prev" href="device.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../quickstart/">
+            
+                <a href="../quickstart/">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../yun-xing.html">
+            
+                <a href="../yun-xing.html">
+            
+                    
+                    运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../geng-xin.html">
+            
+                <a href="../geng-xin.html">
+            
+                    
+                    更新
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../weexpluskuang-jia-geng-xin.html">
+            
+                <a href="../weexpluskuang-jia-geng-xin.html">
+            
+                    
+                    weexplus框架更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../re-geng-xin.html">
+            
+                <a href="../re-geng-xin.html">
+            
+                    
+                    热更新
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../re-geng-xin/pei-zhi-bu-zou.html">
+            
+                <a href="../re-geng-xin/pei-zhi-bu-zou.html">
+            
+                    
+                    配置步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../quan-liang-geng-xin.html">
+            
+                <a href="../quan-liang-geng-xin.html">
+            
+                    
+                    全量更新
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../quan-liang-geng-xin/pei-zhi-bu-zou.html">
+            
+                <a href="../quan-liang-geng-xin/pei-zhi-bu-zou.html">
+            
+                    
+                    配置步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../diao-shi.html">
+            
+                <a href="../diao-shi.html">
+            
+                    
+                    调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../kai-fa-mo-shi-he-fa-ban-mo-shi.html">
+            
+                <a href="../kai-fa-mo-shi-he-fa-ban-mo-shi.html">
+            
+                    
+                    开发模式与发版模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../gen-lu-jing.html">
+            
+                <a href="../gen-lu-jing.html">
+            
+                    
+                    根路径(root:)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../appboard.html">
+            
+                <a href="../appboard.html">
+            
+                    
+                    appBoard（全局变量方法）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../tu-pian.html">
+            
+                <a href="../tu-pian.html">
+            
+                    
+                    图片使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../pageevent.html">
+            
+                <a href="../pageevent.html">
+            
+                    
+                    页面事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../configjsonpei-zhi-shuo-ming.html">
+            
+                <a href="../configjsonpei-zhi-shuo-ming.html">
+            
+                    
+                    weexplus.json配置说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../xiu-gai-tu-biao-qi-dong-ye.html">
+            
+                <a href="../xiu-gai-tu-biao-qi-dong-ye.html">
+            
+                    
+                    修改图标启动页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../zhi-fu.html">
+            
+                <a href="../zhi-fu.html">
+            
+                    
+                    支付
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../zhi-fu/zhi-fu-bao.html">
+            
+                <a href="../zhi-fu/zhi-fu-bao.html">
+            
+                    
+                    支付宝
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../zhi-fu/wei-xin-zhi-fu.html">
+            
+                <a href="../zhi-fu/wei-xin-zhi-fu.html">
+            
+                    
+                    微信支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../share/">
+            
+                <a href="../share/">
+            
+                    
+                    分享
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../da-bao.html">
+            
+                <a href="../da-bao.html">
+            
+                    
+                    打包
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../da-bao/ios.html">
+            
+                <a href="../da-bao/ios.html">
+            
+                    
+                    ios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.2" data-path="../da-bao/android.html">
+            
+                <a href="../da-bao/android.html">
+            
+                    
+                    android
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../mo-kuai.html">
+            
+                <a href="../mo-kuai.html">
+            
+                    
+                    模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="guan-fang.html">
+            
+                <a href="guan-fang.html">
+            
+                    
+                    官方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.2" data-path="../module/log.html">
+            
+                <a href="../module/log.html">
+            
+                    
+                    log(打印日志)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.3" data-path="notifytong-77e529.html">
+            
+                <a href="notifytong-77e529.html">
+            
+                    
+                    notify(通知)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.4" data-path="notify.html">
+            
+                <a href="notify.html">
+            
+                    
+                    navigator(导航控制器)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.5" data-path="photoxiang-673a-xiang-518c29.html">
+            
+                <a href="photoxiang-673a-xiang-518c29.html">
+            
+                    
+                    photo(相机/相册)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.6" data-path="staticjing-tai-cun-50a829.html">
+            
+                <a href="staticjing-tai-cun-50a829.html">
+            
+                    
+                    static(静态存储)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.7" data-path="prefgu-ding-cun-50a829.html">
+            
+                <a href="prefgu-ding-cun-50a829.html">
+            
+                    
+                    pref(固定存储)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.8" data-path="fpickerpicker.html">
+            
+                <a href="fpickerpicker.html">
+            
+                    
+                    fpicker(picker)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.9" data-path="progresswu-zhuang-tai-jin-du-684629.html">
+            
+                <a href="progresswu-zhuang-tai-jin-du-684629.html">
+            
+                    
+                    progress(无状态进度框)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.10" data-path="qrer-wei-ma-sao-63cf29.html">
+            
+                <a href="qrer-wei-ma-sao-63cf29.html">
+            
+                    
+                    qr(二维码扫描)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.11" data-path="addressbooktong-xun-5f5529.html">
+            
+                <a href="addressbooktong-xun-5f5529.html">
+            
+                    
+                    addressBook(通讯录)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.12" data-path="netwang-luo-fang-95ee29.html">
+            
+                <a href="netwang-luo-fang-95ee29.html">
+            
+                    
+                    net(网络访问)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.13" data-path="slidpopce-bian-lan-dan-chu-zu-4ef629.html">
+            
+                <a href="slidpopce-bian-lan-dan-chu-zu-4ef629.html">
+            
+                    
+                    slidpop(侧边栏弹出组件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.14" data-path="centerpopdan-chu-zu-4ef629.html">
+            
+                <a href="centerpopdan-chu-zu-4ef629.html">
+            
+                    
+                    centerpop(弹出组件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.15" data-path="font.html">
+            
+                <a href="font.html">
+            
+                    
+                    font(添加新字体)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.16" data-path="pageye-mian-kong-zhi-566829.html">
+            
+                <a href="pageye-mian-kong-zhi-566829.html">
+            
+                    
+                    page(页面控制器)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.17" data-path="oss.html">
+            
+                <a href="oss.html">
+            
+                    
+                    oss
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.18" data-path="device.html">
+            
+                <a href="device.html">
+            
+                    
+                    device(设备访问（打电话）)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.16.19" data-path="updater.html">
+            
+                <a href="updater.html">
+            
+                    
+                    updater(更新控制器)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.20" data-path="locationding-4f4d29.html">
+            
+                <a href="locationding-4f4d29.html">
+            
+                    
+                    location(定位)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.21" data-path="env.html">
+            
+                <a href="env.html">
+            
+                    
+                    env(环境模块)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.22" data-path="jpushji-guang-tui-900129.html">
+            
+                <a href="jpushji-guang-tui-900129.html">
+            
+                    
+                    jpush(极光推送)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.22.1" data-path="jpushji-guang-tui-900129/pei-zhi.html">
+            
+                <a href="jpushji-guang-tui-900129/pei-zhi.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.22.1.1" data-path="jpushji-guang-tui-900129/iospei-zhi.html">
+            
+                <a href="jpushji-guang-tui-900129/iospei-zhi.html">
+            
+                    
+                    ios配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.22.1.2" data-path="jpushji-guang-tui-900129/androidpei-zhi.html">
+            
+                <a href="jpushji-guang-tui-900129/androidpei-zhi.html">
+            
+                    
+                    android配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.23" data-path="wechat.html">
+            
+                <a href="wechat.html">
+            
+                    
+                    wechat(微信)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.24" data-path="alipayzhi-fu-5b9d29.html">
+            
+                <a href="alipayzhi-fu-5b9d29.html">
+            
+                    
+                    alipay(支付宝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.25" data-path="wen-jian-ff08-file.html">
+            
+                <a href="wen-jian-ff08-file.html">
+            
+                    
+                    文件（file）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.26" data-path="navbarbiao-ti-lan-kong-zhi-566829.html">
+            
+                <a href="navbarbiao-ti-lan-kong-zhi-566829.html">
+            
+                    
+                    navbar(标题栏控制器)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.27" data-path="keyboard.html">
+            
+                <a href="keyboard.html">
+            
+                    
+                    keyboard（键盘控制器）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.28" data-path="zoomImage.html">
+            
+                <a href="zoomImage.html">
+            
+                    
+                    zoomImage（图片查看器）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.29" data-path="record.html">
+            
+                <a href="record.html">
+            
+                    
+                    record（录音）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.30" data-path="nim.html">
+            
+                <a href="nim.html">
+            
+                    
+                    nim（云信）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.31" data-path="timepicker.html">
+            
+                <a href="timepicker.html">
+            
+                    
+                    timepicker（时间选择器（支持年月日时分秒一起选））
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.32" data-path="umanalyse.html">
+            
+                <a href="umanalyse.html">
+            
+                    
+                    umanalyse（友盟统计）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../zu-jian.html">
+            
+                <a href="../zu-jian.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../zu-jian/floading.html">
+            
+                <a href="../zu-jian/floading.html">
+            
+                    
+                    floading
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.2" data-path="../zu-jian/amap.html">
+            
+                <a href="../zu-jian/amap.html">
+            
+                    
+                    weex-amap(高德地图)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.3" data-path="../zu-jian/drawerlayoutchou-5c4929.html">
+            
+                <a href="../zu-jian/drawerlayoutchou-5c4929.html">
+            
+                    
+                    drawerlayout(抽屉组件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.4" data-path="../zu-jian/hostduo-ye-zu-4ef629.html">
+            
+                <a href="../zu-jian/hostduo-ye-zu-4ef629.html">
+            
+                    
+                    host
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.5" data-path="../zu-jian/imagekuo-5c5529.html">
+            
+                <a href="../zu-jian/imagekuo-5c5529.html">
+            
+                    
+                    image扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.6" data-path="../zu-jian/looper.html">
+            
+                <a href="../zu-jian/looper.html">
+            
+                    
+                    looper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.7" data-path="../zu-jian/web.html">
+            
+                <a href="../zu-jian/web.html">
+            
+                    
+                    web扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../plugin/">
+            
+                <a href="../plugin/">
+            
+                    
+                    插件化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.1" data-path="../share/">
+            
+                <a href="../share/">
+            
+                    
+                    分享(umshare)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.2" data-path="../plugin/sysShare.html">
+            
+                <a href="../plugin/sysShare.html">
+            
+                    
+                    系统分享(sysShare)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.3" data-path="../zu-jian/zvideo.html">
+            
+                <a href="../zu-jian/zvideo.html">
+            
+                    
+                    player(视频播放器)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.4" data-path="../plugin/audio.html">
+            
+                <a href="../plugin/audio.html">
+            
+                    
+                    audio(音频播放)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.5" data-path="wechat.html">
+            
+                <a href="wechat.html">
+            
+                    
+                    wechat(微信)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.6" data-path="alipayzhi-fu-5b9d29.html">
+            
+                <a href="alipayzhi-fu-5b9d29.html">
+            
+                    
+                    alipay(支付宝)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.7" data-path="../zu-jian/amap.html">
+            
+                <a href="../zu-jian/amap.html">
+            
+                    
+                    weex-amap(高德地图)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.8" data-path="nim.html">
+            
+                <a href="nim.html">
+            
+                    
+                    nim（云信）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.9" data-path="../plugin/shot.html">
+            
+                <a href="../plugin/shot.html">
+            
+                    
+                    shot(截图)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.10" data-path="umanalyse.html">
+            
+                <a href="umanalyse.html">
+            
+                    
+                    umanalyse（友盟统计）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.11" data-path="timepicker.html">
+            
+                <a href="timepicker.html">
+            
+                    
+                    timepicker（时间选择器（支持年月日时分秒一起选））
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.12" data-path="zoomImage.html">
+            
+                <a href="zoomImage.html">
+            
+                    
+                    zoomImage（图片查看器）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.13" data-path="record.html">
+            
+                <a href="record.html">
+            
+                    
+                    record（录音）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.14" data-path="../plugin/qr.html">
+            
+                <a href="../plugin/qr.html">
+            
+                    
+                    qr（二维码组件）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.15" data-path="../plugin/lottie.html">
+            
+                <a href="../plugin/lottie.html">
+            
+                    
+                    lottie(lottie动画组件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.16" data-path="../plugin/seekbar.html">
+            
+                <a href="../plugin/seekbar.html">
+            
+                    
+                    seekbar(进度条)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.17" data-path="../plugin/seekbar.html">
+            
+                <a href="../plugin/seekbar.html">
+            
+                    
+                    photoplus(相机相册高级版)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.18" data-path="../plugin/office.html">
+            
+                <a href="../plugin/office.html">
+            
+                    
+                    office(word,excel,ppt,pdf展示器)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.19" data-path="jpushji-guang-tui-900129.html">
+            
+                <a href="jpushji-guang-tui-900129.html">
+            
+                    
+                    jpush(极光推送)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.19.1" data-path="jpushji-guang-tui-900129/pei-zhi.html">
+            
+                <a href="jpushji-guang-tui-900129/pei-zhi.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.19.1.1" data-path="jpushji-guang-tui-900129/iospei-zhi.html">
+            
+                <a href="jpushji-guang-tui-900129/iospei-zhi.html">
+            
+                    
+                    ios配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18.19.1.2" data-path="jpushji-guang-tui-900129/androidpei-zhi.html">
+            
+                <a href="jpushji-guang-tui-900129/androidpei-zhi.html">
+            
+                    
+                    android配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../ru-men-jiao-cheng.html">
+            
+                <a href="../ru-men-jiao-cheng.html">
+            
+                    
+                    入门教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.19.1" >
+            
+                <span>
+            
+                    
+                    1.搭建环境
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19.2" data-path="../ru-men-jiao-cheng/2ru-kou-ye.html">
+            
+                <a href="../ru-men-jiao-cheng/2ru-kou-ye.html">
+            
+                    
+                    2.入口页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19.3" data-path="../ru-men-jiao-cheng/3xie-yi-ge-ye-mian.html">
+            
+                <a href="../ru-men-jiao-cheng/3xie-yi-ge-ye-mian.html">
+            
+                    
+                    3.写一个页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19.4" data-path="../ru-men-jiao-cheng/4dao-hang-yu-chuan-can-shu.html">
+            
+                <a href="../ru-men-jiao-cheng/4dao-hang-yu-chuan-can-shu.html">
+            
+                    
+                    4.导航与传参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19.5" data-path="../ru-men-jiao-cheng/4da-bao.html">
+            
+                <a href="../ru-men-jiao-cheng/4da-bao.html">
+            
+                    
+                    last.打包
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >updater(更新控制器)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="updater">updater</h1>
+<p>&#x7528;&#x4E8E;&#x66F4;&#x65B0;&#x68C0;&#x6D4B;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x6574;&#x5305;&#x66F4;&#x65B0;&#x548C;&#x70ED;&#x66F4;&#x65B0;&#x3002; &#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5EFA;&#x8BAE;&#x7684;&#x540E;&#x53F0;&#x7A0B;&#x5E8F;&#xFF0C;&#x914D;&#x5408;doCheck&#xFF0C;doCheckJs &#x76F4;&#x63A5;&#x4F7F;&#x7528;&#xFF0C;&#x6216;&#x8005;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x66F4;&#x65B0;&#x68C0;&#x6D4B;&#x7136;&#x540E;&#x8C03;&#x7528;download&#xFF08;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;app&#xFF09;&#xFF0C;hotUpdate&#xFF08;&#x4E0B;&#x8F7D;zip&#x89E3;&#x538B;&#x8986;&#x76D6;&#x672C;&#x5730;&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#xFF09;</p>
+<p>&#x4ED8;&#x540E;&#x53F0;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/farwolf2010/updater" target="_blank">https://github.com/farwolf2010/updater</a> java&#x540E;&#x7AEF;&#x7A0B;&#x5E8F;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x811A;&#x672C;</p>
+<h2 id="api">Api</h2>
+<pre class="language-"><code>/**
+*&#x6B64;&#x65B9;&#x6CD5;&#x4E3A;&#x6BD4;&#x8F83;&#x4E1A;&#x52A1;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x9700;&#x8981;&#x7ED3;&#x5408;&#x6211;&#x7684;&#x540E;&#x53F0;&#x7A0B;&#x5E8F;&#x6765;&#x4F7F;&#x7528;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x81EA;&#x5DF1;&#x7684;&#x66F4;&#x65B0;&#x68C0;&#x6D4B;&#x673A;&#x5236;&#xFF0C;&#x8C03;&#x7528;&#x4E0B;&#x65B9;&#x7684;download&#x53BB;&#x4E0B;&#x8F7D;&#x66F4;&#x65B0;&#x5373;&#x53EF;
+*param(&#x5305;&#x542B;&#xFF1A;appid(app&#x7684;id) url(&#x68C0;&#x6D4B;&#x66F4;&#x65B0;&#x7684;&#x5730;&#x5740;) theme(&#x754C;&#x9762;&#x4E3B;&#x9898;&#x8272;) failtoast(&#x5931;&#x8D25;&#x540E;&#x662F;&#x5426;&#x63D0;&#x793A;)  showprogress(&#x662F;&#x5426;&#x663E;&#x793A;&#x8FDB;&#x5EA6;) 
+* installNextOpen&#xFF08;&#x662F;&#x5426;&#x5728;&#x4E0B;&#x6B21;&#x6253;&#x5F00;app&#x7684;&#x65F6;&#x5019;&#x624D;&#x63D0;&#x793A;&#x5B89;&#x88C5;&#xFF09; )
+*callback &#x68C0;&#x6D4B;&#x5230;&#x6CA1;&#x6709;&#x66F4;&#x65B0;&#x65F6;&#x7684;&#x56DE;&#x8C03;
+**/
+doCheck(param,callback)
+
+
+
+/**
+* url&#x4E0B;&#x8F7D;&#x5730;&#x5740;&#xFF0C;
+* android &#x7684;&#x662F;apk&#x7684;&#x4E0B;&#x8F7D;&#x5730;&#x5740; &#xFF08;&#x4F8B;&#x5982;&#xFF1A;http://59.110.169.226/img/app-debug.apk&#xFF09;
+* ios&#x662F;&#x5546;&#x5E97;&#x7684;&#x5730;&#x5740; &#xFF08;&#x4F8B;&#x5982;&#xFF1A;itms-apps://itunes.apple.com/us/app/apple-store/id375380948&#xFF09;
+**/
+download(url)
+
+
+/**
+*&#x68C0;&#x6D4B;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x6709;&#x4E0B;&#x8F7D;&#x597D;&#x672A;&#x5B89;&#x88C5;&#x7684;apk&#x7684;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x81EA;&#x52A8;&#x5F39;&#x51FA;&#x63D0;&#x793A;&#x5B89;&#x88C5;
+*callback &#x4E0D;&#x5B58;&#x5728;apk&#x7684;&#x65F6;&#x5019;&#x8C03;&#x7528;
+**/
+checkDownloadApk(callback)
+
+
+
+/**
+*&#x6B64;&#x65B9;&#x6CD5;&#x4E3A;&#x6BD4;&#x8F83;&#x4E1A;&#x52A1;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x9700;&#x8981;&#x7ED3;&#x5408;&#x6211;&#x7684;&#x540E;&#x53F0;&#x7A0B;&#x5E8F;&#x6765;&#x4F7F;&#x7528;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x81EA;&#x5DF1;&#x7684;&#x66F4;&#x65B0;&#x68C0;&#x6D4B;&#x673A;&#x5236;&#xFF0C;&#x8C03;&#x7528;&#x4E0B;&#x65B9;&#x7684;hotUpdate&#x53BB;&#x4E0B;&#x8F7D;&#x66F4;&#x65B0;&#x5373;&#x53EF;
+*param(&#x5305;&#x542B;&#xFF1A;appid(app&#x7684;id) url(&#x68C0;&#x6D4B;&#x66F4;&#x65B0;&#x7684;&#x5730;&#x5740;) theme(&#x754C;&#x9762;&#x4E3B;&#x9898;&#x8272;) failtoast(&#x5931;&#x8D25;&#x540E;&#x662F;&#x5426;&#x63D0;&#x793A;)  showprogress(&#x662F;&#x5426;&#x663E;&#x793A;&#x8FDB;&#x5EA6;) )
+**/
+doCheckJs(param)
+
+
+
+
+/** &#x56DE;&#x8C03;&#x51FD;&#x6570;&#x4E0D;&#x4F20;&#xFF0C;&#x5C31;&#x662F;&#x9759;&#x9ED8;&#x66F4;&#x65B0;
+*param: (url:zip&#x4E0B;&#x8F7D;&#x5730;&#x5740;&#xFF0C;&#x6CE8;&#x610F;&#xFF1A;&#x88AB;&#x538B;&#x7F29;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x540D;&#x79F0;&#x5FC5;&#x987B;&#x662F;app&#xFF1B;version:&#x65B0;&#x7248;)
+*start &#x5F00;&#x59CB;&#x4E0B;&#x8F7D;
+*progress &#x4E0B;&#x8F7D;&#x4E2D;&#xFF0C;&#x53C2;&#x6570;:(percent)&#x6574;&#x578B;
+*compelete &#x4E0B;&#x8F7D;&#x5B8C;&#x6210;
+*exception &#x5F02;&#x5E38;
+**/
+hotUpdate(param,start,progress,compelete,exception)
+</code></pre><h2 id="demo">Demo</h2>
+<pre class="language-"><code class="lang-js"><span class="token keyword">var</span> updater<span class="token operator">=</span>weex<span class="token punctuation">.</span><span class="token function">requireModule</span><span class="token punctuation">(</span><span class="token string">&apos;updater&apos;</span><span class="token punctuation">)</span>
+
+<span class="token comment">//&#x6574;&#x5305;&#x68C0;&#x6D4B;</span>
+updater<span class="token punctuation">.</span><span class="token function">doCheck</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+appid<span class="token punctuation">:</span><span class="token string">&apos;1&apos;</span><span class="token punctuation">,</span>
+url<span class="token punctuation">:</span><span class="token string">&apos;&apos;</span><span class="token punctuation">,</span>
+theme<span class="token punctuation">:</span><span class="token string">&apos;#808080&apos;</span><span class="token punctuation">,</span>
+failtoast<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+showprogress<span class="token punctuation">:</span><span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+   <span class="token comment">//&#x68C0;&#x6D4B;&#x5230;&#x6CA1;&#x6709;&#x66F4;&#x65B0;&#x65F6;&#x7684;&#x56DE;&#x8C03;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+
+<span class="token comment">//android</span>
+updater<span class="token punctuation">.</span><span class="token function">download</span><span class="token punctuation">(</span><span class="token string">&apos;http://59.110.169.226/img/app-debug.apk&apos;</span><span class="token punctuation">)</span>
+
+<span class="token comment">//ios</span>
+updater<span class="token punctuation">.</span><span class="token function">download</span><span class="token punctuation">(</span><span class="token string">&apos;itms-apps://itunes.apple.com/us/app/apple-store/id375380948&apos;</span><span class="token punctuation">)</span>
+
+
+
+
+<span class="token comment">//&#x70ED;&#x66F4;&#x65B0;&#x68C0;&#x6D4B;&#x548C;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x7684;&#x540E;&#x53F0;&#x914D;&#x5957;</span>
+updater<span class="token punctuation">.</span><span class="token function">doCheckJs</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+appid<span class="token punctuation">:</span><span class="token string">&apos;1&apos;</span><span class="token punctuation">,</span>
+url<span class="token punctuation">:</span><span class="token string">&apos;&apos;</span><span class="token punctuation">,</span>
+theme<span class="token punctuation">:</span><span class="token string">&apos;#808080&apos;</span><span class="token punctuation">,</span>
+failtoast<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+showprogress<span class="token punctuation">:</span><span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">//&#x70ED;&#x66F4;&#x65B0;&#x4E0B;&#x8F7D; (&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x66F4;&#x65B0;&#x68C0;&#x6D4B;&#x7684;&#x903B;&#x8F91;&#xFF0C;&#x7136;&#x540E;&#x8C03;&#x7528;&#x8FD9;&#x4E2A;)</span>
+updater<span class="token punctuation">.</span><span class="token function">hotUpdate</span><span class="token punctuation">(</span><span class="token punctuation">{</span>urL<span class="token punctuation">:</span><span class="token string">&apos;http://xxxxx/app.zip&apos;</span><span class="token punctuation">,</span>version<span class="token punctuation">:</span><span class="token string">&apos;&#x5F53;&#x524D;jsversion&#x7684;&#x7248;&#x672C;&apos;</span><span class="token punctuation">,</span>mode<span class="token punctuation">:</span><span class="token string">&apos;0&#xFF1A;&#x9759;&#x9ED8;&#x66F4;&#x65B0;&#xFF0C;&#x53EA;&#x4E0B;&#x8F7D;&#x5B58;&#x50A8;&#xFF0C;&#x4E0B;&#x6B21;&#x542F;&#x52A8;app&#x7684;&#x65F6;&#x5019;&#x624D;&#x8986;&#x76D6;&#x672C;&#x5730;&#xFF1B;2:&apos;</span>&#x5F39;&#x51FA;&#x9009;&#x62E9;&#x6846;&#x63D0;&#x793A;&#x66F4;&#x65B0;&#xFF0C;&#x70B9;&#x786E;&#x5B9A;&#x7ACB;&#x5373;&#x751F;&#x6548;<span class="token string">&apos;&apos;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">(</span>percent<span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="device.html" class="navigation navigation-prev " aria-label="Previous page: device(设备访问（打电话）)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="locationding-4f4d29.html" class="navigation navigation-next " aria-label="Next page: location(定位)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"updater(更新控制器)","level":"1.16.19","depth":2,"next":{"title":"location(定位)","level":"1.16.20","depth":2,"path":"mo-kuai/locationding-4f4d29.md","ref":"mo-kuai/locationding-4f4d29.md","articles":[]},"previous":{"title":"device(设备访问（打电话）)","level":"1.16.18","depth":2,"path":"mo-kuai/device.md","ref":"mo-kuai/device.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","splitter","expandable-chapters-small","copy-code-button","github","baidu","ad"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"shortName":"weexplus-handbook"},"ad":{"contentBottom":"","contentTop":""},"github":{"url":"https://github.com/weexplus/boilerplate"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"expandable-chapters-small":{},"copy-code-button":{},"baidu":{"token":"82a73d59d3b11433bf44c49f98d57844"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"weexplus 中文指南","language":"zh","gitbook":"*","description":"weexplus 官方文档"},"file":{"path":"mo-kuai/updater.md","mtime":"2020-01-02T01:02:09.916Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-02T01:02:52.446Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-baidu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ad/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
